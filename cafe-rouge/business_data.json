@@ -1,0 +1,206 @@
+{
+  "name": "Cafe Rouge",
+  "category": "restaurant",
+  "business_types": [
+    "bar",
+    "cafe",
+    "establishment",
+    "food",
+    "point_of_interest",
+    "restaurant"
+  ],
+  "address": "14 Paradise St, Liverpool L1 8JF, UK",
+  "vicinity": "14 Paradise St, Liverpool",
+  "phone": "0151 709 8657",
+  "international_phone": "+44 151 709 8657",
+  "location": {
+    "lat": 53.40407399999999,
+    "lng": -2.9872833
+  },
+  "plus_code": {
+    "compound_code": "C237+J3 Liverpool, UK",
+    "global_code": "9C5VC237+J3"
+  },
+  "rating": 3.7,
+  "total_reviews": 28,
+  "price_level": 2,
+  "business_status": "CLOSED_TEMPORARILY",
+  "google_maps_url": "https://maps.google.com/?cid=6633634905019976681",
+  "place_id": "ChIJjTcPoS8he0gR6QtZs8xnD1w",
+  "opening_hours": null,
+  "current_opening_hours": null,
+  "reviews": [
+    {
+      "author": "Dianne Hitchen",
+      "rating": 1,
+      "text": "Have been coming here for several years visiting our student son so was so disappointed when returned after a few months it was like a different restaurant. Ordered the pate which used to come on a wooden board with lovely bread and a bowl of relish what arrived was a tiny piece of pate placed upside down on the plate to hide the colour difference underneath. My main course arrived with my dauphinois potatoes presented as a dried out  solid layer and a over cooked duck leg so sent back to the kitchen and got exactly the same sent back! There was no apology and actually had to ask for the uneaten potatoes to be removed from the bill. The manager didn't even bother to come over to the table, which is usually mandatory when something is sent back to the kitchen in any restaurant. Terrible food overseen by a inept manager such a disappointment definitely won't be back.",
+      "relative_time": "9 years ago",
+      "time": 1469401109,
+      "language": "en"
+    },
+    {
+      "author": "Tony C",
+      "rating": 1,
+      "text": "We went there after Christmas at around 7.30pm and when seated we were told that the food will be a bit slow as they were down satff. We accepted that, our order was taken some 20 mins later, another hour passed and we still had not got our starters (yet the place was half empty). When we asked for a second time, the waitress giggled and said she would try and find out. Next thing our starters arrived and at the same time our main course arrived as well! it was like an episode of faulty towers ...... the staff were all over the place and nobody seemed to be able to organise even the simplest of tasks.  By the time all the food arrived, we were one of the last diners there as others had just simply walked out (we watch as one guy spent ages arguing over his bill). We ate up as it was too late for any other option and the food was average at best. When we asked for our bill, we reminded the staff that we were messed around all night and again all we got was a luagh and 'oh its been crazy' ...... any waiter or manager worth their salt would have offered us a drink on the house or at least a reduction on what was poor service and average food. Obvously we will not be back.",
+      "relative_time": "9 years ago",
+      "time": 1452088925,
+      "language": "en"
+    },
+    {
+      "author": "Zak Robbins",
+      "rating": 3,
+      "text": "This place is good in respects to service, you can tell that they're working at pleasing everyone.\nThe food is generally just okay, the tomato soup was nice, chicken was overcooked, the crème brûlée was lacking in flavour, and the strawberry sorbet tasted like cough mixture.",
+      "relative_time": "8 years ago",
+      "time": 1484514640,
+      "language": "en"
+    },
+    {
+      "author": "Olivier Burgering",
+      "rating": 4,
+      "text": "Was there on a sunny summer evening. Belgium beers on the terrace in the late sun, prefect! French style food was average but selling point is the staff. Very friendly waiter!",
+      "relative_time": "9 years ago",
+      "time": 1465059174,
+      "language": "en"
+    },
+    {
+      "author": "Nizar Swailem",
+      "rating": 5,
+      "text": "One of my favorite spots in Liverpool, be it for breakfast, lunch or just a quick drink or coffee. It's also the place where my son first discovered babyccinos. They have outdoor seating as well, which is great if you're a smoker, and the staff is incredibly friendly and helpful. A must try if you're visiting the city.",
+      "relative_time": "8 years ago",
+      "time": 1485112885,
+      "language": "en"
+    }
+  ],
+  "photos": [
+    {
+      "reference": "AciIO2d7eCN_1nok9dHkIAgv6JYSvKU-Ez-695P0EHq7RAjCUeImaapMVZ3Dga89jX0Bn-nRCHiQwqmyNPhmfimU9W0J0Q30s_uTyYkCfhohDV-az-RZbHSHBdzBDglGp6HQokcLcme4f2ubIjHYZXIwRVGNFILdzdTKCljEsFzImdh3RXCpY6cV97b6RvPMmmpJbOKcinURMTltPuAO-TAAXI1_VwsGKCzTHKYvY_qRf546jn7lIHthLuVRdX23YP5dE29Rt-yP3yU0Kw28_S5CwX2_scwvZIHoiX9g1LwXk041HQ",
+      "width": 2000,
+      "height": 1335,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/113839092439078030629\">Cafe Rouge</a>"
+      ],
+      "small": "images/photo_1_small_c58b11fed8c8689e196076be31a7e705.jpg",
+      "medium": "images/photo_1_medium_cf8ae06d98d935bd7af6608e006aa4c9.jpg",
+      "large": "images/photo_1_large_ed07a86d58ee8e7f8a544a2591d2d2dd.jpg"
+    },
+    {
+      "reference": "AciIO2dvmZ6Zka6oDp1pW4AZRUTqVbBKjpQ2w4_b-3du5NRNsB_1kQNPFW4oHKXXwQzhJzAOqHrqGZTPvGM3UG0xKnabxtEDWfckiWmcamPG6OI6RgxIMc9f3G2txVe9vTza8pPyLlFZXnJxYWxBPye6Mv8qID_rO7FRItqm9SgG_bBILvKBkrniTIzyKjFSIIAksv16siW304yNcNcgqOFyPAnOCPUROgfbYQAMG_R1h9503YWG4SqOiXqZHd7uHSPbJqIiMHbZ188TOh-vdBFNGpyz28-Fv4Dn82gR7A7gAZxr8WaXHe5sojLFBrK83veWO7yceolEW7-H7hCN1jxTbz4rZXii3UdQgiKamaAFTEjrf7_FP7YTAfq2xyL3zrufu9rs9pPAiwdBE9cAqu-m2q109EU282bm104VCM4zO7L-fPc",
+      "width": 3264,
+      "height": 2448,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/105536007262202317926\">James (ItsMuchMore)</a>"
+      ],
+      "small": "images/photo_2_small_ffc0498df4f044eede9bb9c9ce71c0d2.jpg",
+      "medium": "images/photo_2_medium_8cb9154db74024a8aabc852df5efe564.jpg",
+      "large": "images/photo_2_large_e972190939c1a40c3ddcbc4608662e06.jpg"
+    },
+    {
+      "reference": "AciIO2djEQqmd-h58tkGJi5LVyWgRy5aWBqBn7nTAEdN-QJZBr-IsO8RIF9Bouz1H6zoiHzTsIWuyVdEaJmBBx9LkmMWK0C7thoj_FSZuJ0V7_NL9isjsYIxIWDTxKKp6mSZxWvrUPFO98wBQD_D1HkhKbGxIW7sKsS_jxGbkP5_Kf1wYmCElPI10euBJSiVf_vXG3Dr9TemKk7yUYti4hhzvGT4diOu2unFZxciHiq1nEi8GgtZ2DpWPzB-LQi4HMSWi8gfMSOdaMozZ4SqQPhoGFMXVvQEZ2tgQ7sHAn_CFk15qp-0DGBSjhOgnJ1gT4pK4anCq8IGLAzke2D5GFNGBzt8MXy-2N8R8hcicuABT3Y6Aajm9Csiyn-U1FUKfpZHWE8hqJn0mXTr2xnCuj2Y0bzGxY3BbclwOu_-ej8WGkxux1jH",
+      "width": 2446,
+      "height": 1760,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/101366695526677390601\">Average Bloke</a>"
+      ],
+      "small": "images/photo_3_small_e47fb2d3db1f6317559585bd61e2d837.jpg",
+      "medium": "images/photo_3_medium_e856f101d29aad210b02b2d12864c39d.jpg",
+      "large": "images/photo_3_large_467f9f07ad8e2023abbe0d3b0bf4d480.jpg"
+    },
+    {
+      "reference": "AciIO2cpRQN-9GJ2CRrjg9nCW7Jeash0M_Q-hBGE2HrdAXDBbiMlD2LWPY2tImsRJFTBmf-XclCHls0Cc65j7C6_ktX9qj7afMSPikdPXrE_XsmanQKsbbn-Xj-laQsPoIS7WHAxe2ylZkRuOLC1wGq6QV-Emix1R4Y-8-WFA1L4cRR-CbRoH5CreOftsfNhI62WvgwZ_AK-9J55v2_tGMGJ_bVEPqgunXYdfc7lGM523NCJ-ePX-vk7dDcmOIRdn_GJtwP1Trvy3BlK7wA8EcjxYdJIiIjeNe5t6ior-bN1xxQlzyJEfAxW03X6aM5k-DP7I9OT8ITxRGrDzS1omN9Emw7NK7sbrawrpS-DW8Y67PE5GpkoT7gu3x_Dymk1yILC1aNE3EVstwSplgCegj6SeohQ7TqQ9bhntE7VTU-DrCbwiLnG",
+      "width": 2176,
+      "height": 3264,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/107545185566737284463\">Kaya</a>"
+      ],
+      "small": "images/photo_4_small_1068c19c86d83e148b539cbbb905d6cd.jpg",
+      "medium": "images/photo_4_medium_b609a083be9b6378bebea71622cab832.jpg",
+      "large": "images/photo_4_large_7ae2dd1b2746ddbcb15dd187ecaa8fb8.jpg"
+    },
+    {
+      "reference": "AciIO2e9rEED_Poyk6YTfZCvJkqr7Zy2zThQkgaHEYEWhVDr1spnfEvcHtk--0-SmEJ-D-6HL6ZXMslRcBL8hEnZlNUWB783NBkSxzLmjbTBeEATE2XT__C_Fw6D2ZWcs4Ix_MySaGGpTvyYfKvwkql3Czs80oOqrlXi_V8bthk81qIjHGc8253xJzKPKfC0ajoOOiE2U0AYlHiYRPTNTlwTdxVbH2tRSz4Kw2G4gb_sxm8G_oyQQhbtnlgSed12TLP3sNcHh3orLRPvFoglcFhxyqITZI5To8hSM2dGm4QOPNHURU5FjF1talXpVuYNepIwu7ezDwYbQVOOo8YDWxtKHEqzToTr4JVzczMPpdBb3capLgBV3BEGz_yTzew3mDxFcAWY-uCuhyhkEGXk548jzZD-MZXARZI3zp5VVSBM59pjfzQ6",
+      "width": 4032,
+      "height": 3024,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/102134974570841547722\">Faran Khan</a>"
+      ],
+      "small": "images/photo_5_small_fde9e42205bd106680dae9487b411d93.jpg",
+      "medium": "images/photo_5_medium_cda82a91eedab121dd6283a0ab28b678.jpg",
+      "large": "images/photo_5_large_3807ff0868bfc7109fce5d2e5072e8fa.jpg"
+    },
+    {
+      "reference": "AciIO2cDpuBX77wq4IBVXyGfL0t2RjIRbn0xfWaJTUfWgG42Y6QFFg2eUruB2srD_nn2R1waL7ym_leR2U7lZJMcgfRAvNFq6driMWWapDOJqIDgqj02a-mgWHWS0diGEG657quQBeuGG77Rwl1C4PNOYAPAzIr5WMcPLZaaCUBAx0fqhTVQBbEziPck9O0lP0CPtLis-VLlA36QTxKUgjKI5XhXt2eIlIut_o-bdPSQMawiOnpR8WSL2FraMe7OAt0kr-vC2IHB5d_rwGt0zpiWozCCWsypQj8RYIb59V8o2nqTdeXCmHRtI3UnMFuqtHKaJMCXq02If9arbaiOhcZvTT-AIqQe96SDGc_377HR09lSky6iD_B8zLtJF_E65HZuamqJVFWOwfDO-g_eUPRpxQmKHHKJe1uqptXRredGiGU-9cAL",
+      "width": 2176,
+      "height": 3264,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/107545185566737284463\">Kaya</a>"
+      ],
+      "small": "images/photo_6_small_9c9e29767ccf2325b03c071c4f869164.jpg",
+      "medium": "images/photo_6_medium_5dbf3a1cb50f02c80db787d58d3f4e43.jpg",
+      "large": "images/photo_6_large_c9b3d5ad35f58cfb80e55618b5acb6ac.jpg"
+    },
+    {
+      "reference": "AciIO2fcIJukxcPFdfHLsMGJp63qW771DHIS0QjmORy1_5WxMPUCM7YX6rUXxK8SJk9nmY1tbAOOr-h0CTTuKaooJKMzFdMvq2SUG2HEa5dmPxoV7AEfIVQ2E-XzmUtW_KgTwPXyZgj7pADDubWogGyI79zaFW4n61c_G2tY03j4I21uQoldoDLx4tWxOk_RX-Ir4GbRd8mLCGuMifJK4QQPVHqEoFrEU0XNziBYqaxdafEi10dANBuDYcU4TsNkcocomCC2XwRi7UCwALMS5nYncCcGd6OaMu43ZYCThR3jHaVIR942pQEW-uVrl5fWWrst3IIMJzOZi4zv7q2z-UlbeymMeTdhZMdB9Z1wJuiD2_i0N_KjUdTtZTBwbtl8KTWcBpP-R_cJEnLyQP97n1w3qe-gqtItgZ6Nl2q2sN0BT6Zz0pU",
+      "width": 4032,
+      "height": 3024,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/102134974570841547722\">Faran Khan</a>"
+      ],
+      "small": "images/photo_7_small_34d0d8f9df5a34f10c9753706283fdca.jpg",
+      "medium": "images/photo_7_medium_c361b5c4d184673b6375904911089d81.jpg",
+      "large": "images/photo_7_large_9a516c57ffac8f17ab35cefa145c754b.jpg"
+    },
+    {
+      "reference": "AciIO2cxsW7iLOVMg1n6nrLSMASz66UoJP2L_bZOCKeE02bd9oYglaKXUv-t6XAWP9zE5toUZdZJM8MPFQ_CvDeof8QRb_wizYo5lzi8kGuXJV3R-kd3N1_fFcM45LxnlRwONNN6WBeMKXPyrlXwq-6ZdO8Fc-KmTaVimmUqQqSLy50OTsPgdxY0i6vMw8yhyHgVfOtPc9rTozxS4mXtZiEXP-eHcgXDk4XykHFl87wC9MPUVjXmgpO4ys5nKc4REYcG8WlXIbvQNaGJNoC7wMnrllsfR8EdbxVHX9tUKjghSrn42lS83hYfsDJWni-2x5aAysqGRZL-aeMozLCd-dgL2knHGIHc0KTTjj4K_9_b1yLPCzUUsiDMdYnXVRuKJGg-Rk47voNPbyjKC3JWpvoFoz5Lqf1jyFDFWo-_F-tbpH3LExm_",
+      "width": 2448,
+      "height": 3264,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/105536007262202317926\">James (ItsMuchMore)</a>"
+      ],
+      "small": "images/photo_8_small_022d20e4dee1e50d33d712447b75ce50.jpg",
+      "medium": "images/photo_8_medium_5b14ff856edb3b328bde021fbda1d282.jpg",
+      "large": "images/photo_8_large_9a6ea91a10a349e9b2ec873204ef836a.jpg"
+    },
+    {
+      "reference": "AciIO2cAJGwhVVvCyBtPtpyOHQQd_sDZOsfs1tGlxo8bee0BHFT6EcRcWabGZAZSjMwUgq4zLmJXV5o-KD9W5RLUVcSZI8lIQDUcNkMFcF-SY10L3BT1cjA7j-j1HjaxaMjTKrgSgc0PfDm-g-i-MuHMmmpoA8GSCV_LQuUhWKFaiLXgtSxiYYcqEvYcEWakffBG662rQsID4mWMUZ4mIYI17wlLNCyGBhwzsryuop7bGfHeFNW9TxISn2RwOHVf1DRFowG2obPdx4iIOwOgf6U04xMQPjVwkSmeum36VpwbMyNuDivmJnQVlqtm1IZONidVallwfTh62OTcEom24sfshKtKKu7u6NQHdVMF9iqMXwGocnBYyXi0TBwN2aCazDQGGgcXRjNp8dIvaXIV4ANIPVksjnkDEqbyCX3a3ddLQzkSy8GE",
+      "width": 2700,
+      "height": 4800,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/104478090696556529266\">Vivianne Carvalho</a>"
+      ],
+      "small": "images/photo_9_small_f90cc176b75d860b0d20a7e121872fe9.jpg",
+      "medium": "images/photo_9_medium_cc08c0719f2133373bcc531cf6ac7edf.jpg",
+      "large": "images/photo_9_large_133e9fde0f596ad16b23c018f552c414.jpg"
+    },
+    {
+      "reference": "AciIO2fV8k5h7fYP16xZ2jNGmzDaLDYqBTahgfJqfd_O5qYqxKqUBiwIN_z7Ik1kPawJMqhXzPgN1THj90F5jlSGxQFvY8HVmzgmnLyZ_EIqhHPaNgEWCCpqKjHc_4GlEEhKFHoFdJsU_who-w_XlHLnCMsT_WLPUWltKQvW4jhS7Zo6DeIUtL17dn45GBjcRFlCigu5kS7EpgGJKjVYr7PL79ryDqC_HDrnFDmHEXhymLADCJ-DFgW8mpCQCbO2ry4ydU-sZmmUYEDDQhhc8uTQwHQTHX77y0Vw7RiFOpP95_3dC_jNVy7-7WEyAOCRQb6r-YnR8X3DZ2fnQci9LGihpv0edvi7OjKzK6j5_whe0tHwiNrXYYSoY1nj_EJX7sVqjKxgV1W_aDVrBRiei7nts-_MBNzmPY2YJDqaipNCxglDIJg",
+      "width": 2448,
+      "height": 3264,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/105536007262202317926\">James (ItsMuchMore)</a>"
+      ],
+      "small": "images/photo_10_small_7f9b44405dd491ed56f186109dfccd81.jpg",
+      "medium": "images/photo_10_medium_bc1f59d8c6f1679077b9ece4393145ab.jpg",
+      "large": "images/photo_10_large_70f7458ea9f91ca2ad68271c42a74808.jpg"
+    }
+  ],
+  "business_intelligence": {
+    "services_mentioned": [
+      "outdoor seating",
+      "breakfast",
+      "lunch",
+      "appointment"
+    ],
+    "menu_items": [],
+    "positive_keywords": [
+      "great",
+      "love",
+      "best"
+    ],
+    "areas_for_improvement": [],
+    "unique_selling_points": []
+  },
+  "website_readiness_score": 85,
+  "missing_data_points": [
+    "opening_hours"
+  ]
+}

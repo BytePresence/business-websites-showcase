@@ -1,0 +1,546 @@
+
+    <!DOCTYPE html>
+    <html lang='en'>
+    <head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <title>Chantilly Beatles Cafe - Artisan Coffee & Cozy Atmosphere at Chantilly Beatles Cafe</title>
+        <meta name='description' content='Discover exceptional artisan coffee at Chantilly Beatles Cafe. Fresh roasted beans, skilled baristas, cozy atmosphere. Your perfect coffee experience awaits!'>
+        <meta name='keywords' content='coffee, cafe, 8 Mathew St, Liverpool, artisan coffee, fresh roasted, cozy atmosphere, barista crafted, premium beans'>
+        <link href='https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap' rel='stylesheet'>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css'>
+        <style>
+            * { margin: 0; padding: 0; box-sizing: border-box; }
+            body { 
+                font-family: 'Source Sans Pro', Arial, sans-serif; 
+                background: #FFF8DC; 
+                color: #3C2414; 
+                line-height: 1.6; 
+            }
+            .container { max-width: 1400px; margin: 0 auto; padding: 0 15px; }
+            
+            /* Header */
+            header { 
+                background: #8B4513; 
+                color: white; 
+                padding: 1rem 0; 
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+                position: sticky;
+                top: 0;
+                z-index: 100;
+            }
+            .header-content { display: flex; justify-content: space-between; align-items: center; }
+            .logo { 
+                font-family: 'Playfair Display', serif; 
+                font-size: 2.2rem; 
+                font-weight: 700; 
+                color: #F4E4BC; 
+            }
+            .nav-links { display: flex; gap: 2rem; }
+            .nav-links a { 
+                color: white; 
+                text-decoration: none; 
+                font-weight: 600; 
+                transition: color 0.3s ease; 
+            }
+            .nav-links a:hover { color: #F4E4BC; }
+            
+            /* Hero Section */
+            .hero { 
+                
+            background: linear-gradient(135deg, #8B4513 0%, #D2691E 100%);
+            background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="2" fill="rgba(255,255,255,0.1)"/><circle cx="80" cy="40" r="1.5" fill="rgba(255,255,255,0.1)"/><circle cx="40" cy="70" r="2.5" fill="rgba(255,255,255,0.1)"/></svg>');
+        
+                color: white; 
+                text-align: center; 
+                padding: 120px 0 80px; 
+                position: relative;
+                overflow: hidden;
+            }
+            .hero::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(0,0,0,0.3);
+                z-index: 1;
+            }
+            .hero-content { position: relative; z-index: 2; }
+            .hero h1 { 
+                font-family: 'Playfair Display', serif; 
+                font-size: 3.5rem; 
+                margin-bottom: 1rem; 
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            }
+            .hero p { 
+                font-size: 1.3rem; 
+                margin-bottom: 2rem; 
+                font-weight: 300; 
+            }
+            .rating { 
+                font-size: 1.1rem; 
+                margin-bottom: 2rem; 
+                opacity: 0.9; 
+            }
+            .cta-button { 
+                background: #D2691E; 
+                color: white; 
+                padding: 15px 40px; 
+                border-radius: 50px; 
+                font-weight: 600; 
+                text-decoration: none; 
+                font-size: 1.1rem;
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                display: inline-block;
+            }
+            .cta-button:hover { 
+                transform: translateY(-2px); 
+                box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+            }
+            
+            /* Coffee Features */
+            .coffee-features { 
+                padding: 80px 0; 
+                background: white; 
+            }
+            .features-grid { 
+                display: grid; 
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+                gap: 3rem; 
+                margin-top: 3rem;
+            }
+            .feature-item { 
+                text-align: center; 
+                padding: 2rem; 
+                border-radius: 15px; 
+                background: #F4E4BC; 
+                transition: transform 0.3s ease;
+            }
+            .feature-item:hover { transform: translateY(-5px); }
+            .feature-icon { 
+                font-size: 3rem; 
+                color: #8B4513; 
+                margin-bottom: 1rem; 
+            }
+            .feature-item h3 { 
+                font-family: 'Playfair Display', serif; 
+                color: #3C2414; 
+                margin-bottom: 1rem; 
+                font-size: 1.4rem;
+            }
+            
+            /* About Section */
+            .about { 
+                padding: 80px 0; 
+                background: #FFF8DC; 
+            }
+            .about-content { 
+                max-width: 800px; 
+                margin: 0 auto; 
+                text-align: center; 
+            }
+            .about h2 { 
+                font-family: 'Playfair Display', serif; 
+                font-size: 2.5rem; 
+                color: #8B4513; 
+                margin-bottom: 2rem; 
+            }
+            .about p { 
+                font-size: 1.1rem; 
+                line-height: 1.8; 
+                color: #3C2414; 
+                margin-bottom: 1.5rem;
+            }
+            
+            /* Menu Section */
+            .menu-preview { 
+                padding: 80px 0; 
+                background: white; 
+            }
+            .menu-preview h2 { 
+                font-family: 'Playfair Display', serif; 
+                font-size: 2.5rem; 
+                color: #8B4513; 
+                text-align: center; 
+                margin-bottom: 3rem; 
+            }
+            .menu-categories { 
+                display: grid; 
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+                gap: 2rem; 
+            }
+            .menu-category { 
+                background: #F4E4BC; 
+                padding: 2rem; 
+                border-radius: 15px; 
+                text-align: center;
+            }
+            .menu-category h3 { 
+                font-family: 'Playfair Display', serif; 
+                color: #8B4513; 
+                margin-bottom: 1rem; 
+                font-size: 1.5rem;
+            }
+            .menu-items { 
+                list-style: none; 
+            }
+            .menu-items li { 
+                padding: 0.5rem 0; 
+                border-bottom: 1px dotted #8B4513; 
+            }
+            
+            /* Gallery */
+            .gallery { 
+                padding: 80px 0; 
+                background: #FFF8DC; 
+            }
+            .gallery h2 { 
+                font-family: 'Playfair Display', serif; 
+                font-size: 2.5rem; 
+                color: #8B4513; 
+                text-align: center; 
+                margin-bottom: 3rem; 
+            }
+            .photo-grid { 
+                display: grid; 
+                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+                gap: 1.5rem; 
+            }
+            .photo-item { 
+                border-radius: 15px; 
+                overflow: hidden; 
+                box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+                transition: transform 0.3s ease;
+            }
+            .photo-item:hover { transform: scale(1.05); }
+            .photo-item img { 
+                width: 100%; 
+                height: 250px; 
+                object-fit: cover; 
+                display: block;
+            }
+            
+            /* Reviews */
+            .reviews { 
+                padding: 80px 0; 
+                background: white; 
+            }
+            .reviews h2 { 
+                font-family: 'Playfair Display', serif; 
+                font-size: 2.5rem; 
+                color: #8B4513; 
+                text-align: center; 
+                margin-bottom: 3rem; 
+            }
+            .reviews-grid { 
+                display: grid; 
+                grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
+                gap: 2rem; 
+            }
+            .review-card { 
+                background: #F4E4BC; 
+                padding: 2rem; 
+                border-radius: 15px; 
+                box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+                position: relative;
+            }
+            .review-card::before {
+                content: '"';
+                font-size: 4rem;
+                color: #8B4513;
+                position: absolute;
+                top: -10px;
+                left: 20px;
+                font-family: serif;
+            }
+            .stars { 
+                color: #FFD700; 
+                font-size: 1.2rem; 
+                margin-bottom: 1rem; 
+            }
+            .review-text { 
+                font-style: italic; 
+                margin-bottom: 1rem; 
+                line-height: 1.6;
+            }
+            .reviewer { 
+                font-weight: 600; 
+                color: #8B4513; 
+            }
+            
+            /* Contact */
+            .contact { 
+                background: #8B4513; 
+                color: white; 
+                padding: 80px 0; 
+            }
+            .contact h2 { 
+                font-family: 'Playfair Display', serif; 
+                font-size: 2.5rem; 
+                text-align: center; 
+                margin-bottom: 3rem; 
+                color: #F4E4BC;
+            }
+            .contact-grid { 
+                display: grid; 
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+                gap: 3rem; 
+                margin-top: 2rem;
+            }
+            .contact-item { 
+                text-align: center; 
+                padding: 2rem;
+            }
+            .contact-item i { 
+                font-size: 2.5rem; 
+                color: #D2691E; 
+                margin-bottom: 1rem; 
+            }
+            .contact-item h3 { 
+                font-family: 'Playfair Display', serif; 
+                color: #F4E4BC; 
+                margin-bottom: 1rem; 
+            }
+            .hours { 
+                background: rgba(255,255,255,0.1); 
+                padding: 1.5rem; 
+                border-radius: 10px; 
+                margin-top: 1rem;
+            }
+            .hours h3 { 
+                color: #F4E4BC; 
+                margin-bottom: 1rem; 
+            }
+            .hours ul { 
+                list-style: none; 
+            }
+            .hours li { 
+                padding: 0.3rem 0; 
+            }
+            
+            /* Footer */
+            footer { 
+                background: #3C2414; 
+                color: white; 
+                text-align: center; 
+                padding: 2rem 0; 
+            }
+            
+            /* Responsive */
+            @media (max-width: 768px) {
+                .hero h1 { font-size: 2.5rem; }
+                .nav-links { display: none; }
+                .features-grid { grid-template-columns: 1fr; }
+                .photo-grid { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class='container'>
+                <div class='header-content'>
+                    <div class='logo'><i class='fas fa-coffee'></i> Chantilly Beatles Cafe</div>
+                    <nav class='nav-links'>
+                        <a href='#home'><i class='fas fa-home'></i> Home</a>
+                        <a href='#about'><i class='fas fa-info-circle'></i> About</a>
+                        <a href='#menu'><i class='fas fa-mug-hot'></i> Menu</a>
+                        <a href='#gallery'><i class='fas fa-images'></i> Gallery</a>
+                        <a href='#reviews'><i class='fas fa-star'></i> Reviews</a>
+                        <a href='#contact'><i class='fas fa-map-marker-alt'></i> Visit Us</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <section id='home' class='hero'>
+            <div class='container'>
+                <div class='hero-content'>
+                    <h1><i class='fas fa-coffee'></i> Chantilly Beatles Cafe</h1>
+                    <p>Artisan Coffee & Cozy Atmosphere at Chantilly Beatles Cafe</p>
+                    <div class="rating"><i class="fas fa-star"></i> 4.5 rating from 166 coffee lovers</div>
+                    <a href='#contact' class='cta-button'><i class='fas fa-coffee'></i> Order Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section class='coffee-features'>
+            <div class='container'>
+                <h2 style='text-align: center; font-family: "Playfair Display", serif; color: #8B4513; margin-bottom: 1rem; font-size: 2.5rem;'>Why Coffee Lovers Choose Us</h2>
+                <div class='features-grid'>
+                    <div class='feature-item'>
+                        <div class='feature-icon'><i class='fas fa-seedling'></i></div>
+                        <h3>Premium Beans</h3>
+                        <p>Carefully sourced from the world's finest coffee regions, roasted to perfection for exceptional flavor.</p>
+                    </div>
+                    <div class='feature-item'>
+                        <div class='feature-icon'><i class='fas fa-user-tie'></i></div>
+                        <h3>Expert Baristas</h3>
+                        <p>Our skilled baristas craft each cup with precision and passion, ensuring the perfect coffee experience.</p>
+                    </div>
+                    <div class='feature-item'>
+                        <div class='feature-icon'><i class='fas fa-heart'></i></div>
+                        <h3>Cozy Atmosphere</h3>
+                        <p>Relax in our warm, inviting space designed for coffee enjoyment and comfortable conversation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id='about' class='about'>
+            <div class='container'>
+                <div class='about-content'>
+                    <h2>Our Coffee Story</h2>
+                    <p>At Chantilly Beatles Cafe, we're passionate about crafting the perfect cup of coffee. Our skilled baristas use only the finest, freshly roasted beans to create an exceptional coffee experience in a warm, welcoming environment.</p>
+                    <p>With a 4.5 star rating from 166 satisfied customers, we've become a beloved part of the 8 Mathew St, Liverpool coffee community.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id='menu' class='menu-preview'>
+            <div class='container'>
+                <h2><i class='fas fa-mug-hot'></i> Coffee & More</h2>
+                <div class='menu-categories'>
+                    <div class='menu-category'>
+                        <h3><i class='fas fa-coffee'></i> Espresso Drinks</h3>
+                        <ul class='menu-items'>
+                            <li>Cappuccino</li>
+                            <li>Latte</li>
+                            <li>Americano</li>
+                            <li>Macchiato</li>
+                        </ul>
+                    </div>
+                    <div class='menu-category'>
+                        <h3><i class='fas fa-snowflake'></i> Cold Beverages</h3>
+                        <ul class='menu-items'>
+                            <li>Iced Coffee</li>
+                            <li>Cold Brew</li>
+                            <li>Frappuccino</li>
+                            <li>Iced Tea</li>
+                        </ul>
+                    </div>
+                    <div class='menu-category'>
+                        <h3><i class='fas fa-bread-slice'></i> Fresh Pastries</h3>
+                        <ul class='menu-items'>
+                            <li>Croissants</li>
+                            <li>Muffins</li>
+                            <li>Cookies</li>
+                            <li>Sandwiches</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class='gallery'>
+            <div class='container'>
+                <h2>Our Gallery</h2>
+                <div class='photo-grid'>
+        
+                    <div class='photo-item'>
+                        <img src='images/photo_1_medium_f77ea23e7295f63773d6079272ba2f7a.jpg' alt='Chantilly Beatles Cafe - Photo 1' loading='lazy'>
+                    </div>
+            
+                    <div class='photo-item'>
+                        <img src='images/photo_2_medium_2ef00eae2683f4ba3f3c1ca14e73fd0b.jpg' alt='Chantilly Beatles Cafe - Photo 2' loading='lazy'>
+                    </div>
+            
+                    <div class='photo-item'>
+                        <img src='images/photo_3_medium_fac8e19a288c4b55640e591bfaa9c67a.jpg' alt='Chantilly Beatles Cafe - Photo 3' loading='lazy'>
+                    </div>
+            
+                    <div class='photo-item'>
+                        <img src='images/photo_4_medium_3b568180e39ecb5151fc6d57ed74ee31.jpg' alt='Chantilly Beatles Cafe - Photo 4' loading='lazy'>
+                    </div>
+            
+                    <div class='photo-item'>
+                        <img src='images/photo_5_medium_8dd5fe9bd9349a63f74c50038f9c6d80.jpg' alt='Chantilly Beatles Cafe - Photo 5' loading='lazy'>
+                    </div>
+            
+                    <div class='photo-item'>
+                        <img src='images/photo_6_medium_9ae6d4afaa5a9c452d59521a5bce5bd2.jpg' alt='Chantilly Beatles Cafe - Photo 6' loading='lazy'>
+                    </div>
+            
+                </div>
+            </div>
+        </section>
+        
+
+        
+        <section class='reviews'>
+            <div class='container'>
+                <h2>What Our Customers Say</h2>
+                <div class='reviews-grid'>
+        
+                    <div class='review-card'>
+                        <div class='stars'>★★★★★</div>
+                        <p>"This place was definitely worth visiting! Google maps do not have the correct location on their maps if you walk past the cavern club and then past the statue of cilla black the entrance to the small ..."</p>
+                        <div class='reviewer'>- Justin</div>
+                        <div class='review-time'>5 months ago</div>
+                    </div>
+            
+                    <div class='review-card'>
+                        <div class='stars'>★★★★☆</div>
+                        <p>"BF fancied a big breakfast for dinner and we remembered that there was a cafe near the caven we went to last time. So we found this amazing cafe that played Beatles music and he got his big breakfast ..."</p>
+                        <div class='reviewer'>- Lesley Price</div>
+                        <div class='review-time'>6 months ago</div>
+                    </div>
+            
+                    <div class='review-card'>
+                        <div class='stars'>★★★★★</div>
+                        <p>"Hidden away in the Cavern walks we came here for breakfast. Very tasty food surrounded by Beatles memorabilia."</p>
+                        <div class='reviewer'>- Graham Cave</div>
+                        <div class='review-time'>10 months ago</div>
+                    </div>
+            
+                </div>
+            </div>
+        </section>
+        
+
+        <section id='contact' class='contact'>
+            <div class='container'>
+                <h2><i class='fas fa-map-marker-alt'></i> Visit Our Coffee Shop</h2>
+                <div class='contact-grid'>
+                    <div class='contact-item'>
+                        <i class='fas fa-map-marker-alt'></i>
+                        <h3>Location</h3>
+                        <p>8 Mathew St, Liverpool L2 6RE, UK</p>
+                        <a href="https://maps.google.com/?cid=9425701303214680481" target="_blank" style="color: #D2691E; text-decoration: none;">View on Google Maps</a>
+                    </div>
+                    <div class='contact-item'>
+                        <i class='fas fa-phone'></i>
+                        <h3>Call Us</h3>
+                        <p>0151 236 0184</p>
+                        <p style='color: #D2691E;'>For orders & reservations</p>
+                    </div>
+                    <div class='contact-item'>
+                        <i class='fas fa-clock'></i>
+                        
+                <div class='hours'>
+                    <h3>Opening Hours</h3>
+                    <ul>
+        <li>Monday: 9:00 AM – 5:00 PM</li><li>Tuesday: 9:00 AM – 5:00 PM</li><li>Wednesday: 9:00 AM – 5:00 PM</li><li>Thursday: 9:00 AM – 5:00 PM</li><li>Friday: 9:00 AM – 5:00 PM</li><li>Saturday: 9:00 AM – 5:00 PM</li><li>Sunday: Closed</li>
+                    </ul>
+                </div>
+        
+                    </div>
+                </div>
+                <div style='text-align: center; margin-top: 3rem;'>
+                    <p style='font-size: 1.2rem; margin-bottom: 1rem;'>Visit us today for your perfect coffee moment!</p>
+                    <a href='tel:0151 236 0184' class='cta-button'><i class='fas fa-phone'></i> Call Now</a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class='container'>
+                <p>&copy; 2025 Chantilly Beatles Cafe. All rights reserved. | Artisan Coffee in 8 Mathew St, Liverpool</p>
+                <p>Crafted with <i class='fas fa-heart' style='color: #D2691E;'></i> by Business Profiling Engine</p>
+            </div>
+        </footer>
+    </body>
+    </html>
+    
