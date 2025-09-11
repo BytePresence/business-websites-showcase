@@ -1,0 +1,206 @@
+{
+  "name": "Coffee & Fandisha",
+  "category": "cafe",
+  "business_types": [
+    "cafe",
+    "establishment",
+    "food",
+    "point_of_interest",
+    "store"
+  ],
+  "address": "5 Brick St, Liverpool L1 0BL, UK",
+  "vicinity": "5 Brick St, Liverpool",
+  "phone": null,
+  "international_phone": null,
+  "location": {
+    "lat": 53.3960022,
+    "lng": -2.9793583
+  },
+  "plus_code": {
+    "compound_code": "92WC+C7 Liverpool, UK",
+    "global_code": "9C5V92WC+C7"
+  },
+  "rating": 4.7,
+  "total_reviews": 307,
+  "price_level": 2,
+  "business_status": "CLOSED_TEMPORARILY",
+  "google_maps_url": "https://maps.google.com/?cid=4163567400041947736",
+  "place_id": "ChIJM3_Emtgge0gRWKLlpX32xzk",
+  "opening_hours": null,
+  "current_opening_hours": null,
+  "reviews": [
+    {
+      "author": "Jody Taylor",
+      "rating": 5,
+      "text": "Lovely Spot in the middle of a cool urban artsy area! Funky, bright space with great music and a good vibe. Food was delicious, eggs were particularly yummy, my companions mind was blown by the beans! Huge coffee and drinks menu, plenty of choice and all really high quality! 💜",
+      "relative_time": "4 months ago",
+      "time": 1746623370,
+      "language": "en"
+    },
+    {
+      "author": "James Yea",
+      "rating": 5,
+      "text": "Gorgeous small hidden gem of a brunch spot in the Baltic triangle. Despite living in Liverpool for the past 4 years I’ve only just found out about coffee and fandisha now - I think it will become one of my favourites!\nLovely chilled atmosphere, the interior is great (minimalistic rustic chic with some Scandinavian influence) and the staff are fantastic and so warming.\nI had the long black coffee which was delicious and the bodega wrap which was fantastic.\nI’m sad it’s taken me 4 years to realise this place existed but I’m glad I’ve finally found it and can’t wait to return :)",
+      "relative_time": "3 months ago",
+      "time": 1747394084,
+      "language": "en"
+    },
+    {
+      "author": "Maudi Fria Andhini",
+      "rating": 5,
+      "text": "Went here Sunday afternoon with my toddler. I'm a matcha lover and the organic matcha latte here suited my taste. Also ordered mocha and granola. They're lovely. Comfy ambience also.",
+      "relative_time": "11 months ago",
+      "time": 1728825799,
+      "language": "en"
+    },
+    {
+      "author": "Chloe Courtney",
+      "rating": 5,
+      "text": "As someone who has anxiety around eating out alone, I thought I would try somewhere local and found coffee and fandisha and I'm glad I did.\nI walked in the place felt so cosy and homely and was quite quiet. I ordered the cutest hot chocolate I have ever had which also tasted gorgeous and a jerk chicken sourdough grill, which was so jucy and flavourful, and tasted just like the jerk chicken my sister used to make for me while I was growing up. The price for this was very reasonably priced as well!\nI will definately be back again! Thank you for the amazing food and drinks and for making me feel comfortable!",
+      "relative_time": "10 months ago",
+      "time": 1730818565,
+      "language": "en"
+    },
+    {
+      "author": "stephanie kirby",
+      "rating": 2,
+      "text": "Picked here for brunch as the venue looked cool. The atmosphere and music inside was good. However, waited 30 minutes for coffee, order taken incorrectly, then an hour for food. Food was nothing special and portions very small for the money.\n\nWouldn’t recommend.",
+      "relative_time": "4 months ago",
+      "time": 1745147830,
+      "language": "en"
+    }
+  ],
+  "photos": [
+    {
+      "reference": "AciIO2cbQElFrNaw14bKRO20cBCadV2DZM0xRVzXNKShbJxNyZSI-MRp95Hsw9hE0HS3LqGFqliy-QC_UNczhGtlcg0eaHBnR5XCdsBKMI1XcSHr1DZ0T1LAIaUEyBrt3UFxJnkSgPa_hw7SAtzJq4685-_dwDFlprAYXL83zB-DmPVd_2EpbTRv_IyQtm8OVjOgBjUxT6PgAmEQ4wyQJyoyqKkb5z4UWvvrp1PNcZnG5aeCUFF7L4_5xmuWP0f2HE2BLWdfgfhTGKdXq4p6m3gyOGvFzcaJuBkNv3igHcnyrlcq6jj63HU8u--yw-mJY4itaEcmmeaAeNYNJNM-eHrj2AdQ3sS9RTBeXemuFT8er2-ONPtZoSpRoVrfm8BWX5y70zJu8FqXo6sflWlfssdYOoFWihDOWOGELa4tzKzDJseouZxi",
+      "width": 3600,
+      "height": 4800,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/106856288133234734003\">G Airey</a>"
+      ],
+      "small": "images/photo_1_small_b29c474a6c5a84dfcbac1ddb4e221c8c.jpg",
+      "medium": "images/photo_1_medium_0c5447140f6f9c58877c50a42078c688.jpg",
+      "large": "images/photo_1_large_094dd879a34d5afa5ff1d31dbb7cd404.jpg"
+    },
+    {
+      "reference": "AciIO2dg9affUHOyYKGY_rHYvoHUZZ9Rbwny4Sar-2sLNtv4-MNnaYKuDUkvByVpmrcdax82pKHfrmBNDOzlvlaw3dIkoKZvlp4Ir3tM2Je2ImkJ_KfbZxpgyWJrD4E3PJrXgRqy2Hm8ZPZhuyvLx6qWd7JreDlVcu89p9DacLTyHTdp6UwfwTWfWYQp1e99qjK7O6fQXbmlZ3dHkKE1Rrg_O9GbjgqlVnqLQBIlrIM_O9anoMw9dTkschWAYucq9iBdZYTo2u32O3gOgJVjBQivSpBSYnD8CnGDvELPgru9WwEqUg",
+      "width": 1600,
+      "height": 1200,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/113416346807661438698\">COFFEE &amp; FANDISHA</a>"
+      ],
+      "small": "images/photo_2_small_5ba663613c67fbee8ae1f4f09beaf7b1.jpg",
+      "medium": "images/photo_2_medium_2f3121b0da7dcf83be9079f44f698e93.jpg",
+      "large": "images/photo_2_large_f06e083853dd25173711553651c00335.jpg"
+    },
+    {
+      "reference": "AciIO2fK8xVzNl-1AqxSGkjM99lLeHoTunpaCZ-UR1G8VgV2z68abVokCBYDJ92hvMjUVEMRVvDtD4XZjCUab8j1RhP0eVfmoSFPKBfRpJZXxW_VxPE68KOG_Kh0dKNsyqHxvR7WLFb9tbPmXugybMJvgdOFswPgLywo20BJuPD_LmgirFP_H5CRRtuwPA0p02IrO1Xjh8LpWmz53PeBl0jmK6fXkyXHcFVjZ9zgPro_uu3HpvzHlUQ_vcXm2EPGuE9bhy74LVsasyzO5ryE8PByahUwYypw7vmBNFhCnEULntKNsQ",
+      "width": 1242,
+      "height": 699,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/113416346807661438698\">COFFEE &amp; FANDISHA</a>"
+      ],
+      "small": "images/photo_3_small_8d2aaba834a1db0dd9d0919e33082eff.jpg",
+      "medium": "images/photo_3_medium_1235708b11790438a5a7ad5c6a27d187.jpg",
+      "large": "images/photo_3_large_f2869a122fcd958c324b269018ce9097.jpg"
+    },
+    {
+      "reference": "AciIO2f6hjT99nV18uxLcYMVDEx8jrZmYilTXQpCH8CEBCWqIIPmdYPiuZTWb_CiKxDtNnuV9Q06BObUJlwB9SCeY5lMMPdaCSRSxHwisxEDpgefpVg0dONz6LKTk3gZSGV-UliM8VvfA9qrTPLPE9Uk6iB_8dtEWD1lNBZnb-mnuTs3Fhszzxx1WB9Ba1ZQba7INCf7ORgaQdhtXmUvQoxL5KmVg3cFiPEcdev_I9MhcLspPEaDOWPuvItqxVfrM5EOy0R3_OG-kfAA2DdIobdlxIa0Mr4qVF44MHTVGMNF_0iKjiMNZB5di-o9GPlPyG4q0a0cs92iCW23zfH0bJt2F1N0oBPI_TPJ9ssZCIe5WuXOzpXvcm_L7gh6XJ61z9apbEI6lqVW_-9ioY4EjYDsliaVe_mjmG_ZJf9hjQXcx6o",
+      "width": 4800,
+      "height": 2700,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/108513974518995945287\">Angel Montes</a>"
+      ],
+      "small": "images/photo_4_small_2224a62ec6232b608de28df576b10fd5.jpg",
+      "medium": "images/photo_4_medium_f87f23e810ef4193fae23fe34b9d99f7.jpg",
+      "large": "images/photo_4_large_6325bbbfe90ad61701c57be42dd03c9e.jpg"
+    },
+    {
+      "reference": "AciIO2cCUqXlNwAtdWJHQ063QdjPB_dBUAUu0rm8lYqjwda_TqKf3MGGVhrcm8075LG1xvjq1NhVd9tmtiQBEcCpg6zFwWF-PxHYM55I1-teLTiqsOXHDgsa8PbPLFZNo0c3w_-GUsB8Qj-TSv1vKRpajGJ1u30PDLjpwu5Z0_3qCQSvS0IefPpvPkh2rXcBpKxCzCib7qefyAOwf4CUPpQj4JQ-oEGTE1f_E6DQKDuJp992GlASpW-GnYJpASj8duadqEtc7zuemFSwbag6YaitHXHl-lJyKL6dVB9UhYpifQq6pKorpuJks2y1E7qIoAOxA-dfgZtSuG3pdueWi7Peva7KxVS1AevuV1O9u44ch9u4rniBPUQMgaoeATZ3ZC9OMPUn86pJ88P7eM-5CdDBxYLGxNbYP2x6FpPDawwfouDi5Joy",
+      "width": 3024,
+      "height": 4032,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/100769562722174255701\">Verónica Díaz</a>"
+      ],
+      "small": "images/photo_5_small_e5f1ac9f4a26686fae6d532fd542f27b.jpg",
+      "medium": "images/photo_5_medium_badbb429078daee5e4cbf5958d4b3a4f.jpg",
+      "large": "images/photo_5_large_726d4c839d8d66ffc20bc1b2f7390574.jpg"
+    },
+    {
+      "reference": "AciIO2c1L2lTcgg5mWXZUKmZBwXrvRpL5xGhba99uQk2cOJdF_2VdtuU8Nstxh5i4emxMx2BnulJJjIRZdS23m_TF6TGF1OVVMJ9K0Wgwa0UafKwWDomfONfIez5hckNuCVZ-ribTVPXeK7TF7J4bE-NPqpWf7vyVOzzHxTUOp7-4zTdSg5q_-oSPYdJsZVhiyyksxv4CAOcd1OwgxHW9vjurZuChjTNZzEwIbvF21e0LzGC4F9IjY0a1IbbN2eMjvwciJT1PDGfs7lLHzgJf7ty3FXQlBx5kZ-Mq1EftzPKlZkG355PQDNBwjL2MMs2DYQg1iAQdJOT7uBBCFwcwvOpg_gnYS3Sp_A31meCLh2XHl_4MAth8II57--PAe39SNUOCdgj6Ip6hT5HYwhiWs7eS2WcmtIRiDaaR47kNXc0kSc",
+      "width": 4032,
+      "height": 2268,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/103527075148434348343\">Charles Meaden</a>"
+      ],
+      "small": "images/photo_6_small_c58f38e72d8edf53326c438412cdf5bc.jpg",
+      "medium": "images/photo_6_medium_bd1378f54b9fffba8fa834e3ccf26d0a.jpg",
+      "large": "images/photo_6_large_85a61b691fadb704c8282824741a8455.jpg"
+    },
+    {
+      "reference": "AciIO2djFmnNmI2pQ3yVykqCeGC7yP4gxSqg2Sk3OeGDSgI0e4PGUlO6lcLf82B8rjFruQMOkz0CnaAto2jtVjHT-ENzzbBvtAZ7mHEsqzQvNmfH6u0XsuWum9pGITkiaX62TPleRPpVZpDXMdXFdB3Gpm7i0ntD3UrbiHxZopCgq4jO4GRD3EwU8Dy9aHmn8dx0EzyVFm6u7BhNcoNsS9QZ4l_KFXDtCoANuXjcM5G7mn2peF_lACsCs2R7-kT7iensyAHUeELAML8a6G3Yy4rMmzmDQRDO0VgdSX1a4hv5osH4xGUpFN0Sk_Q4DvBJ_JdLAFnQKnVMsyJn752aHq_48FbrPYusBAo_bYWoPbd6VpJYuupoyNl4RNH-sIcJ2cps7f3Ic0MZqCLwDpHC-V2wk8c-dy3g56TOicf7Hvr5TjSjNRQt",
+      "width": 2845,
+      "height": 3971,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/111123784465756162388\">Rocsana Olariu</a>"
+      ],
+      "small": "images/photo_7_small_e7d1142862d877ac3281fe83884a8301.jpg",
+      "medium": "images/photo_7_medium_570f6f77864607da0e3b46456de5f739.jpg",
+      "large": "images/photo_7_large_a9656b28d0927689b7dafd1782a635da.jpg"
+    },
+    {
+      "reference": "AciIO2f31GgG90B5tpissgBf0gRVKkpnb-s5j6IbSG3Fe211wl7zNLuOO5blclNLNDS9Ia_eBbcQ0981ueGLIp7GRVgHOmJU7CyPAxnMPMcD9p4qLedZHNuhKkuef3iG5-bRD8ftZo_jEyMoe93xekE1P0rJKd7D-hOZ0xb9AUwuzkHGKBMubFrLYbD_BmlAOa8oUZWTxi21SWENEE-SSel6HfNHECnn8agdtMFn8fXuddiGFfimygSU4GpBKk90a7kOWKPP8u7beyrISV6NSj0WSqjlSrzt8rM3J_UmKOLoopmLf62muVKDH7FcatVM0BWpDL7H0d8GgtB6UUJZ-XNPqx1dWYSKzYmDC3LBKaggUbZO3bfldGVCrNmdyruAddt1eFkU3pHUKiBi_5eQ-DMZayx8IvxjitIVc7XdBsJcrY5PQw",
+      "width": 3600,
+      "height": 4800,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/104845976879798831633\">kübra yazıcı</a>"
+      ],
+      "small": "images/photo_8_small_74d4e53f38507fbd61e9360910b94e09.jpg",
+      "medium": "images/photo_8_medium_dde3c86f7c0e295c8ed3423840439188.jpg",
+      "large": "images/photo_8_large_ef8ea5aa65a953c0617c459950e3c546.jpg"
+    },
+    {
+      "reference": "AciIO2cHRg3RGGGsH2ProDrzoGoK-x0jGuNY8e4zrDHXRCo8Ow-4gYI3E1NSkZ45Lzm_6cVZcBE8wyi3kpFL0dnMcKUdh9RTTI-b02oCzvKaAxWDwpENqXhlRvTlbcC3DZRPDAVc71Gl8IhWKpGxSZnT6p2oDImN74tI83HLSf6PSp4THSEONk5-F9N-R4T-A7fzFCKuneL9OSoMaotfKNhw3iiaBeGSghAxFJyX8J7Mk_0KuD9aFQo_WQVqurPaQE28A5cxuSblqG2e9WUuMROKxzZvvl2dWE7ixPSlHUJsqWDDIGrfKj4ei-8UccSblZbH2SosVeRqem6Pvzm4ILXPRlN4QgPGz6LyOHC_IMYE7EaZgMubX1eOCGw2t3i8SXmacEOj-4dwFpWXk_RSrg3CdDmnmwsyWlCEyCZtgM4QyVR8ALk",
+      "width": 3072,
+      "height": 4080,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/113075754672814032856\">Sergey Kravchenko (Serg)</a>"
+      ],
+      "small": "images/photo_9_small_38f13a51b5b6612f9ad35156aa1e684b.jpg",
+      "medium": "images/photo_9_medium_f1c566cc1eee9a20c735be621fc2f51d.jpg",
+      "large": "images/photo_9_large_8f46547e5b019b947a4595596a48cd3e.jpg"
+    },
+    {
+      "reference": "AciIO2dkeuXrydvdT2oQLEAj4rJBe1BUHq8sikzYOreshBariJmk7sJq1sqQt82eYsHW1wgUnZSuPVxrmzR7OYFonbrBjVomkTAGFfoW1tZC_swn5MJTv369E46RXe7I9RP3k3tI7YOeXLOIsyBP3eDi2CAmLxHmV8S6qga41Il1eeKYdAXQNx5p91JJJHNuvBDGQ55oo5hrCbdVcdmEh6aI1FVjnP9sJe06bN0S4DZfxJ17Lg8AcwCadzHDLRPk1gqGZuWt3nzHZjoZHLQGOdopGbDo1RqLE5FeoEaQjCjeypR_brTviim9Dl98W3b0KnmwNezw2_KF-nDJ4vKfCaifz1G7P24oBvpy3YjD1JCaIrGL2XA6VfGQ0S5qJZhvC86rLR-Kd5WgXZK0QsjdTAgd8wZ9q5msAwQoYQzkSiE6lu9dRg",
+      "width": 1536,
+      "height": 2048,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/111888748303567246333\">Gary Wise</a>"
+      ],
+      "small": "images/photo_10_small_3a34012dc927f8359382e6eac4516dea.jpg",
+      "medium": "images/photo_10_medium_467f25cdc8d085cdb8634c11e408357f.jpg",
+      "large": "images/photo_10_large_39628b06f279b59e5ac44466bb7a154b.jpg"
+    }
+  ],
+  "business_intelligence": {
+    "services_mentioned": [
+      "brunch",
+      "organic"
+    ],
+    "menu_items": [],
+    "positive_keywords": [
+      "amazing",
+      "fantastic",
+      "great",
+      "love",
+      "recommend"
+    ],
+    "areas_for_improvement": [],
+    "unique_selling_points": []
+  },
+  "website_readiness_score": 70,
+  "missing_data_points": [
+    "phone_number",
+    "opening_hours"
+  ]
+}

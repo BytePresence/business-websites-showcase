@@ -1,0 +1,172 @@
+{
+  "name": "Dr Ian Cosmetic Solutions",
+  "category": "beauty_salon",
+  "business_types": [
+    "beauty_salon",
+    "establishment",
+    "health",
+    "point_of_interest",
+    "spa"
+  ],
+  "address": "47 Rodney St, Liverpool L1 9EW, UK",
+  "vicinity": "47 Rodney St, Liverpool",
+  "phone": "0151 321 0227",
+  "international_phone": "+44 151 321 0227",
+  "location": {
+    "lat": 53.40040279999999,
+    "lng": -2.9734623
+  },
+  "plus_code": {
+    "compound_code": "C22G+5J Liverpool, UK",
+    "global_code": "9C5VC22G+5J"
+  },
+  "rating": 5,
+  "total_reviews": 6,
+  "price_level": null,
+  "business_status": "OPERATIONAL",
+  "google_maps_url": "https://maps.google.com/?cid=2974055156122726693",
+  "place_id": "ChIJbZVPpiEhe0gRJTEdQ2j3RSk",
+  "opening_hours": [
+    "Monday: 9:00 AM – 5:00 PM",
+    "Tuesday: 9:00 AM – 5:00 PM",
+    "Wednesday: 9:00 AM – 5:00 PM",
+    "Thursday: 9:00 AM – 9:00 PM",
+    "Friday: 9:00 AM – 5:00 PM",
+    "Saturday: Closed",
+    "Sunday: Closed"
+  ],
+  "current_opening_hours": {
+    "open_now": true,
+    "periods": [
+      {
+        "close": {
+          "date": "2025-09-15",
+          "day": 1,
+          "time": "1700"
+        },
+        "open": {
+          "date": "2025-09-15",
+          "day": 1,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "date": "2025-09-16",
+          "day": 2,
+          "time": "1700"
+        },
+        "open": {
+          "date": "2025-09-16",
+          "day": 2,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "date": "2025-09-17",
+          "day": 3,
+          "time": "1700"
+        },
+        "open": {
+          "date": "2025-09-17",
+          "day": 3,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "date": "2025-09-11",
+          "day": 4,
+          "time": "2100"
+        },
+        "open": {
+          "date": "2025-09-11",
+          "day": 4,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "date": "2025-09-12",
+          "day": 5,
+          "time": "1700"
+        },
+        "open": {
+          "date": "2025-09-12",
+          "day": 5,
+          "time": "0900"
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: 9:00 AM – 5:00 PM",
+      "Tuesday: 9:00 AM – 5:00 PM",
+      "Wednesday: 9:00 AM – 5:00 PM",
+      "Thursday: 9:00 AM – 9:00 PM",
+      "Friday: 9:00 AM – 5:00 PM",
+      "Saturday: Closed",
+      "Sunday: Closed"
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Steve Johnson",
+      "rating": 5,
+      "text": "I felt uneasy about the process, before I started. However, there was no need to worry,  after my fist consultation with Dr Knowles my mind was put at ease. The environment is relaxing and Dr Ian has the skills to make you feel relaxed immediately. I did look around for alternatives before I started, but would not go anywhere else now. First class service and results that I have been very happy with throughout. Highly recommended.",
+      "relative_time": "8 years ago",
+      "time": 1482160553,
+      "language": "en"
+    },
+    {
+      "author": "Ana VG",
+      "rating": 5,
+      "text": "I got very good professional advice from Dr. Ian and, after a few treatments, I am very pleased with the  results.  There is fantastic after care, with accessibility to contact Dr. Ian if you have any query or concern after the treatment.  Its especially convenient that I now have the possibility of treatment being done at home.\nI highly recommend Dr. Ian",
+      "relative_time": "8 years ago",
+      "time": 1480537954,
+      "language": "en"
+    },
+    {
+      "author": "Lee West",
+      "rating": 5,
+      "text": "I have been visiting Dr Ian, for the last 4 years, with  every visit i have been more than happy with the results . Dr Ian is a true professional explaining the full procedure from start to finish with necessary follow ups if required , I would highly recommend his services.",
+      "relative_time": "8 years ago",
+      "time": 1480511130,
+      "language": "en"
+    },
+    {
+      "author": "Lynn Owen",
+      "rating": 5,
+      "text": "Treatment was thoroughly explained as was after care. Procedure was excellent and I'm very happy with my results. I would recommend Dr Ian to anyone who is looking to get something done",
+      "relative_time": "8 years ago",
+      "time": 1480504807,
+      "language": "en"
+    },
+    {
+      "author": "Katie Hibbert",
+      "rating": 5,
+      "text": "Excellent service with excellent results.. 100% satisfied and will most definetly be back for more.. Thank you again",
+      "relative_time": "8 years ago",
+      "time": 1481232950,
+      "language": "en"
+    }
+  ],
+  "photos": [],
+  "business_intelligence": {
+    "services_mentioned": [
+      "consultation"
+    ],
+    "menu_items": [],
+    "positive_keywords": [
+      "excellent",
+      "fantastic",
+      "recommend"
+    ],
+    "areas_for_improvement": [],
+    "unique_selling_points": []
+  },
+  "website_readiness_score": 80,
+  "missing_data_points": [
+    "sufficient_photos"
+  ]
+}

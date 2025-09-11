@@ -1,0 +1,233 @@
+{
+  "name": "Hatters Hostel Liverpool",
+  "category": "hotel",
+  "business_types": [
+    "establishment",
+    "lodging",
+    "point_of_interest"
+  ],
+  "address": "56-60 Mount Pleasant, Liverpool L3 5SD, UK",
+  "vicinity": "56-60 Mount Pleasant, Liverpool",
+  "phone": "0151 709 5570",
+  "international_phone": "+44 151 709 5570",
+  "location": {
+    "lat": 53.4038848,
+    "lng": -2.9746205
+  },
+  "plus_code": {
+    "compound_code": "C23G+H5 Liverpool, UK",
+    "global_code": "9C5VC23G+H5"
+  },
+  "rating": 3.7,
+  "total_reviews": 1276,
+  "price_level": null,
+  "business_status": "OPERATIONAL",
+  "google_maps_url": "https://maps.google.com/?cid=11766433286604361703",
+  "place_id": "ChIJI_EvsSMhe0gR549iobvESqM",
+  "opening_hours": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "current_opening_hours": {
+    "open_now": true,
+    "periods": [
+      {
+        "close": {
+          "date": "2025-09-17",
+          "day": 3,
+          "time": "2359",
+          "truncated": true
+        },
+        "open": {
+          "date": "2025-09-11",
+          "day": 4,
+          "time": "0000",
+          "truncated": true
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: Open 24 hours",
+      "Tuesday: Open 24 hours",
+      "Wednesday: Open 24 hours",
+      "Thursday: Open 24 hours",
+      "Friday: Open 24 hours",
+      "Saturday: Open 24 hours",
+      "Sunday: Open 24 hours"
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Tim Kampen Strings",
+      "rating": 2,
+      "text": "Loud at night b/w 2-6am. Disturbing noises- something striking the floor above us and what sounded like the dragging of a bed and gagged yelling. We tried to contact the desk, but no one answered until the morning. We were honestly scared because we thought someone was being attacked or held captive and terrified they would come in our room. No strong reaction or concern from staff in morning.",
+      "relative_time": "11 months ago",
+      "time": 1728672533,
+      "language": "en"
+    },
+    {
+      "author": "Vera Duarte Santos",
+      "rating": 5,
+      "text": "Great hostel!\nThe decoration is really beautiful and the staff is so helpful! I stayed in a shared room and everything was very tied and cleaned. The bathroom was also shared and it was always impeccable, which unfortunately is not that common. The beds have curtains so that you can get some privacy and block the sun.\nReally loved the place!",
+      "relative_time": "4 years ago",
+      "time": 1602500146,
+      "language": "en"
+    },
+    {
+      "author": "Kate Sine",
+      "rating": 4,
+      "text": "The staff are friendly and accommodating. The building is historic and the bar/dining area is a very fun vibe. It is a very convenient location for arriving from the train station. You do get what you pay for in regards to the rooms. The rooms are stark, but clean. Good choice for a traveler on a budget!",
+      "relative_time": "7 years ago",
+      "time": 1519908281,
+      "language": "en"
+    },
+    {
+      "author": "Graham Eastwood",
+      "rating": 5,
+      "text": "I stayed here for a night and could not have been happier. Its a hostel, but not far off hotel standard room. Was super clean, and the bed was very comfy. The staff were all really friendly and helpful too, not to mention taking social distancing seriously. QStupid me left a personal item behind, and  I called to get it sent to me. Luckily, the chap I spoke with, Junior, was super helpful. He's boxed up.mybitem and printed the courier label for me so its ready to go. Hats off to you guys!! Defo recommend, its in a great location and reasonably priced.",
+      "relative_time": "4 years ago",
+      "time": 1600422043,
+      "language": "en"
+    },
+    {
+      "author": "franklin stone",
+      "rating": 4,
+      "text": "Lovely friendly staff, great breakfast, cheap rates, good location. The rooms are a bit shabby but ok. And the cats are nice but they have pissed or scented on the sofa which is where i put my coat that now smells pretty bad. The smell is very strong around the laundry room too. I saw one up on the bar during breakfast where the cold meat and cheese are. Not very hygienic...",
+      "relative_time": "8 years ago",
+      "time": 1504786445,
+      "language": "en"
+    }
+  ],
+  "photos": [
+    {
+      "reference": "AciIO2f-8ifwqvdA8W99lM76nmiRlEE8EPy7hpSFeEEgLQtr7eSTDOwGisFzSDeUO5Tu_bai1EqWlSX6C05kzOR73-EbwDOyBsM3gveqBhbB5qBkinrsZR0xcKdkJ_QNatsg5jT2rBLhfmh7WZp_-D6I5sH9oQj03l5XPTzqmJlTjOWlr82GxdO8bFMowie7EHhpnvvJREbplaqdHHLHVoTbAfaItfrGZM5oaFiVh42z1iw5bMXURCUwEenaZsp5yuppaWUCwdB9wunCds3XpF2oJxuePfJ9fastht-zQVwRqsHXM7_pQdxfhehy4CPx0F-BEu2Lfxcsg6-9TivWwXbR--UlwVo0xDOAQ08BsTWG3ySzx3NyZ65-SRXUmsMUKHnFxJmmRmG8I31-0CIFs5FbwqA1cXIHquga0228z6o-AYNgTlKk",
+      "width": 4000,
+      "height": 3000,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/101654766413219698064\">김길영</a>"
+      ],
+      "small": "images/photo_1_small_5dc3a6950fc3769b24349035fc0021da.jpg",
+      "medium": "images/photo_1_medium_f937a8ac5c630712f6f7b1c31a6de52c.jpg",
+      "large": "images/photo_1_large_4ff803dc2f78c93dfd0c104bec717c8f.jpg"
+    },
+    {
+      "reference": "AciIO2dVKWkqZy-lHc2GCh-kF0ne99kuB8NznHGQgIgXxuA80CC0e6bK45T5hmVyGidlXyUSLuGRGCHspMbsHStTuJbOoZRcP27dnzPDcgirCKIQgF7PotMQnum-90DoBdAmx-JdzmR-JdZkQro69vxYzQMvDUlF_V6rNIPyvQQE2LYJ5Rncdljve9pLJioO4OgZ7uuoJuoketfIMA76Q_YHAxhzT6TalhW1oQvinznP68D0boY3Rf7IQ0DaXBZqb6EVb8P6sjh3geWXGM3bVEIvWbo49Lx3wQtu4B-dN4oXdqdkW7jkgIb6-QbyX4JPwCrOU0dDL0T9He1sNUwhxC-C7GENZUPUc_FSolJ8E9SX1v1j5kQnsUUCb2lj9z0PBRiDTwg6DF_9a_mOsDnfY0OsnypZkIlKkFZEq_qEwroonO7VpnMO",
+      "width": 4032,
+      "height": 3024,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/115678192120355485037\">Samuel David James</a>"
+      ],
+      "small": "images/photo_2_small_fee2f964be1328f15e06155f63e19ae1.jpg",
+      "medium": "images/photo_2_medium_25578a66a845dd36e399d8c78783b8e2.jpg",
+      "large": "images/photo_2_large_78e87054306282668c37cd247791e9d8.jpg"
+    },
+    {
+      "reference": "AciIO2cZFhVepNC9GyOUkn8kgIL0_x-bCf0pVYNYHTqxFEbzivcSdjvoCg1KE6Pz40cfm2iNaEQuZ7zs9bSz1wfJ91-bFmBg5vVLjjC8MXPyIBvnpkMerFjZFAD_WOJxrGrvHY7xFDFFPg8s_AEtvudXY9C5B0LXgKqi3sMO81V8kkp-aIH3WgE9FMGWJtH81VoqCbWvYsHK5IzOg6PHrqKDreRC-6P7WUdYkt5PGmEfwUMv-cyw1jWIlEczRXbeLHOoCPOdLjLTENUR9zyuLXQwm4KpFniiqrYuSGpRUj4YXtqz87I_W8h5s6Vw1XFwD4LxwWk7TpJqnO0R4zNSRLl2hxc4MyT3DAXmiAPZpgiWyJBB-ku-cBKfJ9b9JOs8D6IHp6uuSYCGnIrc_OpeyYfrQiXag9w_NNWoPETm3ngx3u_F6g",
+      "width": 4032,
+      "height": 3024,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/112938924707249163586\">Elia Mora</a>"
+      ],
+      "small": "images/photo_3_small_fe974c3876e2eda61044ead52d2a4d46.jpg",
+      "medium": "images/photo_3_medium_146661bc90cf983e37410d9dc7c30536.jpg",
+      "large": "images/photo_3_large_55bc1307a5cf1d286a7bec6de3c4c7f8.jpg"
+    },
+    {
+      "reference": "AciIO2cfDXpAtvWenfm1mrRsnTHtwEz76wBGuNjPsNZBOIGCwveMx898vLfEa_783wjTxE-cKE8g9T-4M2WnZAirEXMQ0MgO_fKwRtFtZO0F0Gmsv71T7qQGM2K2EM9aaJ61eMu3JyrPCEloWRW9x4I_EvQ7gF86lei1J99YTQZVczKtv3zIAL-J-95s_vjrxCpuS3W9SnYfXzplsb-ZFiQSJw1AluZRi9YJpcJS3IXYW6Fdl456m-mxZrO03u6O5iVZHMtU7R6FhCPR6YgXlgtC3puW0EHNgpvDIMcwUNW8k-QnV5SKUMn7ZUr76WgQzikAdaOXTaYYPBfOveEGkLhZHD2qyKBKuOAX9js9ucjR4gyO7letVugyAWUU-k4WGB5jbb85rNHgpWyN8U5QWGepgarEX4MzycojZbRlmMjXUxH84p6M",
+      "width": 4032,
+      "height": 3024,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/109117818233440509614\">Damian Borsiak</a>"
+      ],
+      "small": "images/photo_4_small_0101d9d50e5c872de6a6ac30b3a97a62.jpg",
+      "medium": "images/photo_4_medium_4d4779a093c972bdad8b39efd4c549c1.jpg",
+      "large": "images/photo_4_large_0ead10406ee3f131f4f325e95ee46cc4.jpg"
+    },
+    {
+      "reference": "AciIO2ev1MrUetXa0VAU_FwMdkskwZR7Watej0b87zCMJ-dXB5RrKb1NcNokxp5WI7vUwnMkVHLU29E7rdy8y4uKfkS0JY2TBGg9PxP_Oc2XQymJ8Se6mIBJV4z1wUe_fRRGykLCR8-TlWen1UIUY9_d_GmMnIgKLaJfk4tcQaJ7YnpzIreB57pj3xiH1nxWW4DaAemTGE_FZiPRFs5brtIzumgxwdMhnvq-vC518D_EgvqOVMLJIdiN5moop_e7pq0r5IL-QdsLkyFRqeNHyaJ7I0YK_5XrFBdgHd_hEPboFAxhAbZAd1ops-RUKk25E2PfNFAxcDL5yPP4Imsw1f18PECXTIB3YCSBzH9FDW0tWqNY_VbRjlU5JhPFbisZ-JgWYv4Z08B3wS4gTcs7JuVoaoRLAkokxA7XvT-UiKy40NcDxQ",
+      "width": 2448,
+      "height": 3264,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/105183437402499292082\">Janice</a>"
+      ],
+      "small": "images/photo_5_small_e6161c90435dd2218128465805427ada.jpg",
+      "medium": "images/photo_5_medium_bbf5a915371729d938a642e36edf85f2.jpg",
+      "large": "images/photo_5_large_90b86dda722c6a21c21ae840f9f769f4.jpg"
+    },
+    {
+      "reference": "AciIO2cFJiMBRy_XCkI9O4rz0N5JhmzGpFr0D03dn-aC46L24kaRlHDgjLbGKYU6xjyxgurvXaRlp5Ik222kMBmreAR5aK4ehKEUXY8N5X5J0pdJAygYub7GP2jEKArh_POnu_Lb3Q6NJbNYlA_7FyVkYek59Il2oDjISfS1FXRu5KevSnQPQPvGY-dcOvYIt0Gn7CGUz3lM3NPWtF3wSNkobE2IRmbCS-2mbjqRkZM9KsTZSPt9vbvWnCdzsat83B1c9oFowvPpTW_wr2D2l5UqxxqZM5L3u9HrhoMNPv7gcxVKp4YlvaRZYYuruRolqLq_vKYaFxOHFNPpZKyrWFqNmKUEPXAkm9Z8VflJoiLL8Hsh4yOuzurKTkDLVVRyaF8QFIJjl6zlbgKwPh9SKmRw44PdzpNYeqnbAXRPJjWS5mV4YQ",
+      "width": 4160,
+      "height": 2340,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/105506488132690049078\">MaxStuff</a>"
+      ],
+      "small": "images/photo_6_small_5f35074e00695664d4f74cb7cf13dd0a.jpg",
+      "medium": "images/photo_6_medium_aea3178268bf0e24655e73d5e5c3df05.jpg",
+      "large": "images/photo_6_large_8b8e5167c863c1e69c9c45b33207e075.jpg"
+    },
+    {
+      "reference": "AciIO2c-Ro2zBgT6Axwh1-pNRoUlXnZpybHaOJ-zYytXXQi61FmBT0Qhf0oO4BURSvz4Zbp-tnjQaWPERHgk-ZcYGPHjwHKrVrH0x04hWo0IFMVcHfWT7FoGw3yETvvkNBzOU4sMrrEM3s1QN8neIZLXBd5KhVcQvbUnmPNsJfUPpZuAVZ-X2Z7Zo-8qrqJ8npKgFU33xyZYrERGrw6uvQ08wP1gPUYp3qtJbka3nexD2I6RUgL-6j9EROVOPQfhyIrNx1GL1rcQq1F-k07WbUwt56-tx_KgKdbpDRlNMaVfQ_-e8cRYohS3iIFtqTowISUE0pGnNpsKVvZgr38Vmqr6SFDr3dGvAM0YT9WHsEGT2htZlwlo1fF6csW8fB7OFHLITTVQwvBBP4PZKG2P480U4G2uDpa6yO8xCFg6m894bmFEyqw1",
+      "width": 3264,
+      "height": 1836,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/105840152444993671989\">Paul Ryecroft</a>"
+      ],
+      "small": "images/photo_7_small_c60f84cb482161660e2657229f279c4e.jpg",
+      "medium": "images/photo_7_medium_a6db68e01aa616f37ab5d020ae5d1b5a.jpg",
+      "large": "images/photo_7_large_197fb15700dc47515783a46268687ca1.jpg"
+    },
+    {
+      "reference": "AciIO2eA0ChO9HRnU4pOF-pWkQ7lDUHp5Ly8_MKpgYFrsrZRvDdwLSlbHVEoIyAAZYP0E8lIBl-WtflfR-tMTO8JYtWwyLLOqZOvptaMjh-5nSVsiTU2qbDpxy5Ec9LjyaM9XFsGh-n1ki470UXpaxCNIvhCoYZJG7h_k0SzK9lbPsLMymvNP2K4xYA-k8LTv_Gf99yiWOpCIH2gXcMSYexxdC3HyBo1gEAJOAIwSPMm7bZ-Lbo20XIu-pqr8YaQUNAZUYTxkAGVeGd8yWlIL6n8zl2mM-xvo7MNmv-y2Sw8krB_hx45BfMKgyXrgHJH0rcu34ZP8s-Wook2qrBisXHzb75p_QlFkx-VWMry5fZTtxxGU0YX7iGdPEXZNbIUF-VYy6Qw6e8nFnvqtAj7D07g0KRG09geXlFJpCFMl5-qJ-C42Q",
+      "width": 3024,
+      "height": 4032,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/116669242272233143792\">masahiko kurita</a>"
+      ],
+      "small": "images/photo_8_small_8af88ecb9d445e3725a5abff2f4c50e2.jpg",
+      "medium": "images/photo_8_medium_27ca5c9033901b0e40412c3545be412a.jpg",
+      "large": "images/photo_8_large_45c173436cc6cb9e309cffc80e0b9a94.jpg"
+    },
+    {
+      "reference": "AciIO2cuqDO2u1jttPVMttJXec7uQFfY6Omlb6DjdaxjB57NLP_mh6Jy7we4jZa6vYewtz6ZbQAKr9i-gPwMppefhYCrCD9FYW89TQppGYQaPIGMlguMLNmUIduGL_2IS3cTFv1FpjiQOAMO7I5GpSPqBzlP7IWPY0mLbw30dC7OiMDlMXf1IB8oavFMJEvKhfNf8krNM0YYpry-f_UQ_BLYwKWPBncS-O-swtf0FWv6s8Gasv7Qhr-SN4iNQo59EfmwHBhiHyZBKEWou8EgKoGHJfQ6zb0tpiwVOfphaaX8FA5jb3oWriNGYJRfkd9R6lqEwev8cYPN-3DVpUqm0AkxFHil7nXOUBp5ZAw6iQQhM7k__5LlfmHXQuDQsvkCSDrGtgNq5UsDWEmQOSsh3g0HkbFlvtoAQwSDotH6AJDzszWe7g",
+      "width": 4160,
+      "height": 3120,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/106048890927916412695\">Ben Langley</a>"
+      ],
+      "small": "images/photo_9_small_7a08f29e8bb1dc8916de333293ae66be.jpg",
+      "medium": "images/photo_9_medium_acb159d332b33461d2ac4f7ada4cc57c.jpg",
+      "large": "images/photo_9_large_1d1087d5f6ea7d1928f54379e85c3bac.jpg"
+    },
+    {
+      "reference": "AciIO2cUlSi8kPTKzTfQWdFJWgF6qw-KMAjl2tVG93XQBPnxDmlu6vdYJ90spC1AP5QAiLaY4q-hTdb7uJsDb5G0HjFqZpGX0ruWfqvXR0yzQK1ZmImzi51YwtCeMX2pVgg3TB6CtyPmTfei8--MzU6ETfZhaBdT9FqhOGvF-ElA2B03M9_IdDH_S5N6ZPHQPqqZ2FlrK48ebe-OzTCcRuKBHMIDSKuyupJAzryLLo3RuRsNgpFEyUMUV6uCfx8pYEVgCVt5gINsfU6hG6j4FNFGCxm6hhCJqdn-dm8jFVXRPtt_cZc4Mx-BJZSlpBBezGYZgNaFdw8-ulgeW6L2x0b0OpPtlnEhSn95ASLFkBXqrO09FatWQCY8iZeOE288IarVmsBmaavodlC18M58rRdX0NQHO-JNaJbzvEVDGYiEyOt5VA",
+      "width": 3120,
+      "height": 4160,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/110317310802388997055\">Leung Jacob</a>"
+      ],
+      "small": "images/photo_10_small_ba24be285a3369994cc4eedab9a26094.jpg",
+      "medium": "images/photo_10_medium_32c57d7e580136ad0b6118374632aec5.jpg",
+      "large": "images/photo_10_large_5d29eec15b2a05d6d707d3da413a5087.jpg"
+    }
+  ],
+  "business_intelligence": {
+    "services_mentioned": [
+      "breakfast"
+    ],
+    "menu_items": [],
+    "positive_keywords": [
+      "great",
+      "love",
+      "recommend"
+    ],
+    "areas_for_improvement": [],
+    "unique_selling_points": []
+  },
+  "website_readiness_score": 100,
+  "missing_data_points": []
+}

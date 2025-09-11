@@ -1,0 +1,171 @@
+{
+  "name": "The Old Bill Apartments, Liverpool",
+  "category": "real_estate_agency",
+  "business_types": [
+    "establishment",
+    "lodging",
+    "point_of_interest",
+    "real_estate_agency"
+  ],
+  "address": "The Old Bill, 2 Bradewell St, Liverpool L4 4ND, UK",
+  "vicinity": "The Old Bill, 2 Bradewell St, Liverpool",
+  "phone": "07910 086416",
+  "international_phone": "+44 7910 086416",
+  "location": {
+    "lat": 53.4357047,
+    "lng": -2.9748866
+  },
+  "plus_code": {
+    "compound_code": "C2PG+72 Liverpool, UK",
+    "global_code": "9C5VC2PG+72"
+  },
+  "rating": 4.4,
+  "total_reviews": 26,
+  "price_level": null,
+  "business_status": "OPERATIONAL",
+  "google_maps_url": "https://maps.google.com/?cid=14580430334754723036",
+  "place_id": "ChIJx7hMF14he0gR3JRilyMYWMo",
+  "opening_hours": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "current_opening_hours": {
+    "open_now": true,
+    "periods": [
+      {
+        "close": {
+          "date": "2025-09-17",
+          "day": 3,
+          "time": "2359",
+          "truncated": true
+        },
+        "open": {
+          "date": "2025-09-11",
+          "day": 4,
+          "time": "0000",
+          "truncated": true
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: Open 24 hours",
+      "Tuesday: Open 24 hours",
+      "Wednesday: Open 24 hours",
+      "Thursday: Open 24 hours",
+      "Friday: Open 24 hours",
+      "Saturday: Open 24 hours",
+      "Sunday: Open 24 hours"
+    ]
+  },
+  "reviews": [
+    {
+      "author": "BerserKeiYT",
+      "rating": 5,
+      "text": "First off, quite secure building which is always positive! Inside was clean, smelt fresh and provided everything we needed! More than enough facilities for us to use and great space. Beds were comfortable and fresh, always nice to see! To my surprise there was a quite big TV which is a big bonus! Not to mention that the place is really close to the town! Enjoyed my stay here and would definitely come back!",
+      "relative_time": "6 years ago",
+      "time": 1553723825,
+      "language": "en"
+    },
+    {
+      "author": "Michaela",
+      "rating": 5,
+      "text": "2 Night stay for a surprise 70th Birthday Party...\nStunning apartments with fabulous (easy to follow) online service and correspondence! Very modern and beautifully decorated with lots of space and in a great central location. The owners have done a truly outstanding job restoring the old place to a very high standard! Very very reasonably priced and spotlessly clean, cannot fault it at all it should have 10 stars!",
+      "relative_time": "6 years ago",
+      "time": 1557849523,
+      "language": "en"
+    },
+    {
+      "author": "David Greenidge",
+      "rating": 5,
+      "text": "Wonderful stay at the Old Bill Apartment, I found The location perfect to get around the city. It was a 5 minute drive to the city centre and a short walk to Anfield Stadium which help a lot so you don’t have to drive there and saved a lot of hassle. The owner were very helpful when I had any general questions, I’m definitely staying on my return to Liverpool. Highly recommend by me and my friends. Thanks again...\n\nDavid",
+      "relative_time": "6 years ago",
+      "time": 1554231455,
+      "language": "en"
+    },
+    {
+      "author": "scott hill",
+      "rating": 5,
+      "text": "Absolutely amazing apartment stayed here over paddy’s weekend with a couple of my friends, a short journey in to town and a short walk from shops and a McDonald’s up the road. The owners were extremely helpful when one of my friends left their jumper here. Would 110% recommend this apartment.",
+      "relative_time": "6 years ago",
+      "time": 1553934845,
+      "language": "en"
+    },
+    {
+      "author": "Rush Pithia",
+      "rating": 5,
+      "text": "Having stayed 3 nights I was very satisfied with the room. The bedfroom and bathroom was cleaned upon arrival , whilst the bed itself was extremely comfortable. Would I highly recommend !",
+      "relative_time": "6 years ago",
+      "time": 1554311507,
+      "language": "en"
+    }
+  ],
+  "photos": [
+    {
+      "reference": "AciIO2c2u2QF9Bo5ML4v8-yk5SOSSF66tHDvk7FRexM6RourgwD63xD5_fFbTS31B5jErarT6CLk9_i19F1BmK9DsoDtYcdYM7vZJWn5v-EOvTsVFK9ghobLmLg-TrHNIiOzBGrOBduFVZtD-TmIPXuiSG3aIvenC1mQrXaw-veuKJzefEX0JIVB0fs91Oh8N_eEiYV89yhhcFoV6-Z5JVJ5pe35Lq_9WuFVWhV1InY1aMSa2k2SLzWLbblDtB1Wz83A-Fo4K_qqaUiqUd_POXH8IB9yuCXD40FiGwmPVcawQaFbEGyOGjFbBvhA_TIUwGtakvm2pEad1aJlYGCpR9PfHxl1SVKXZrIh0nTAdsnmAl55Lg2E4wfODNIcVxtQ3OqBjmLvrdsaLktaSRDJCnz-9LnJuGz3WkwuC2zCuJilDdLZou_k",
+      "width": 1536,
+      "height": 2048,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/117298259430126443287\">SMP</a>"
+      ],
+      "small": "images/photo_1_small_39c4c81ece83527e89d749e198cfec83.jpg",
+      "medium": "images/photo_1_medium_7da9d93814ee280da1cc275828d5bf2c.jpg",
+      "large": "images/photo_1_large_06a230f14784d3adb47ac87c5b9b315a.jpg"
+    },
+    {
+      "reference": "AciIO2eB6PnBG9VWJbdSU-1jqsGkKDYWn0vBd3ybSdtOttWPsW2L4ZXSjNJPBSDgPLmwrQEkTC6UeJtuvOlaHwOf5_mLKorTByXNyVmnn5nF_17pACQo-kE5o22TimjomcohAtq2k9VN-Ush1EAFLnGKqqA4BtkvDa41yC888JW9YIelfFZ9Y92oygc3jfETKGRtAL-A55BxvC7F6oYtCjUoiJNOMQvDYjPLxXPxrsyNP6KxQsKukA0zWTRyzIMMbwHxpL-Fk6WhjawxijVInLBK6DjxKd8GJRRvexXSNhqbZFTgja9W0UBbq3LIbI0DejHG-_Y-5JdsTHb4xx6DfRsZyUUJSv8-GgdKcuew94G-bJFa-nmDxPxQbuyQTCQbRlisDm7h6tc7X2tL6g58Ymv4aAx8f60iXaitf15Ypd3XHsX0golI",
+      "width": 2048,
+      "height": 1536,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/117298259430126443287\">SMP</a>"
+      ],
+      "small": "images/photo_2_small_cb9cb745a529a907b01afb4a6e0bc6da.jpg",
+      "medium": "images/photo_2_medium_89422e7c21c733486f67b428686ea236.jpg",
+      "large": "images/photo_2_large_800ef4e5ccf831adf1d8a49a954443a3.jpg"
+    },
+    {
+      "reference": "AciIO2c7UW0MFFSTAeyyAMAKsnRG9ETXQ6rDUNgtblbfA3MhGOMw7JcMQV0J5iecWuiuY5_b6fdFV6DElk-yjbwf5eljLdhIw3ruvvsVUMug33Naos8h6XX6fcQrJE47Akh79SmmmDCQDmRgeTV3tLTfjHCveiPDtzMNpUD92kiD0bRdlKKSRv8Outi_2VnOkH43wTz2RDu0CG1SB2FLAE7zdMwVMRluWGF6DWWexlzHRT_LZ8BIZruClJQyAJi4e5-VmP3QhZToboxT92b2Ossrk2KKADD7cHatYQY3Ylk6RiTov5Rqduf2id5sp4Kypcp2SC4WJgChQXSmDH8ybnhM1nlYdd0mLuakNCgibt3eKo8DAoLie0s6lGZKhe1Emf2-eXFUDbg9xQa8t00izU-F6pjv4oDydiT0fl77OqYCrDM",
+      "width": 1536,
+      "height": 2048,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/117298259430126443287\">SMP</a>"
+      ],
+      "small": "images/photo_3_small_d975e70fec92c6a364a2b8280cba45b2.jpg",
+      "medium": "images/photo_3_medium_48dfe22eb65193bcd3e0b4e3ff1076e3.jpg",
+      "large": "images/photo_3_large_45e435433774652e8e159acf1abdfbc3.jpg"
+    },
+    {
+      "reference": "AciIO2eqegmqhXtZdDx1fb2nFAsG0mwWkOR0O3i7FVYwXgVOkG7lQ4qTPGzoJsImarvIvsLHbLBuWwTQsqFxPDNV8S7IvgM-XMVYuNIgTMDkiGy1bVEg3a7W8D0769pS0iKYglLfcOiBr4N33Xbb1gGmXY3L1lAHpeeOHiIzcvcYUGV7uEyeWkAYjmIJGuUbUKJdeTaA_EKoQ7BVgPgGaNF1FspQtXy7n2Bv7G0WLzdGpD6V-85uW6ox3vfLxsrdQRpGugXWjNff44gqTxTDOp15DO-lpStCQGxUiE_Q1n331nYz1OCOsB9sOVHvUwUnsFowAaLKACNM_k0i1A9T6_H7nFrbi7JcDF_uDUF47z73fHG6jXumJ5PBrPgPzWwsHZPVbMgdmqK3GOe3athqfKgutFr5wzURidcG8uqtbMavITsjKAIL",
+      "width": 3024,
+      "height": 4032,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/104132245496232889575\">Engel D&#39;silva</a>"
+      ],
+      "small": "images/photo_4_small_c3d712d73b4f0671f59f3a7b5cb15c9b.jpg",
+      "medium": "images/photo_4_medium_377d59c8dea761650f938637d0d6b69c.jpg",
+      "large": "images/photo_4_large_22ca8c06e840fc947922e29afaba33f9.jpg"
+    }
+  ],
+  "business_intelligence": {
+    "services_mentioned": [
+      "fresh"
+    ],
+    "menu_items": [],
+    "positive_keywords": [
+      "amazing",
+      "wonderful",
+      "great",
+      "recommend",
+      "perfect",
+      "outstanding"
+    ],
+    "areas_for_improvement": [],
+    "unique_selling_points": []
+  },
+  "website_readiness_score": 100,
+  "missing_data_points": []
+}

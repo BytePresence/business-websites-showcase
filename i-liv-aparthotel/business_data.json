@@ -1,0 +1,235 @@
+{
+  "name": "I LIV APARTHOTEL",
+  "category": "real_estate_agency",
+  "business_types": [
+    "establishment",
+    "lodging",
+    "point_of_interest",
+    "real_estate_agency"
+  ],
+  "address": "2 Sidney Pl, Edge Hill, Liverpool L7 3QR, UK",
+  "vicinity": "2 Sidney Pl, Edge Hill, Liverpool",
+  "phone": "07896 823125",
+  "international_phone": "+44 7896 823125",
+  "location": {
+    "lat": 53.403357,
+    "lng": -2.9568275
+  },
+  "plus_code": {
+    "compound_code": "C23V+87 Liverpool, UK",
+    "global_code": "9C5VC23V+87"
+  },
+  "rating": 4,
+  "total_reviews": 29,
+  "price_level": null,
+  "business_status": "OPERATIONAL",
+  "google_maps_url": "https://maps.google.com/?cid=13997276272569540542",
+  "place_id": "ChIJedX1rwQhe0gRvt-C8ZtQQMI",
+  "opening_hours": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "current_opening_hours": {
+    "open_now": true,
+    "periods": [
+      {
+        "close": {
+          "date": "2025-09-17",
+          "day": 3,
+          "time": "2359",
+          "truncated": true
+        },
+        "open": {
+          "date": "2025-09-11",
+          "day": 4,
+          "time": "0000",
+          "truncated": true
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: Open 24 hours",
+      "Tuesday: Open 24 hours",
+      "Wednesday: Open 24 hours",
+      "Thursday: Open 24 hours",
+      "Friday: Open 24 hours",
+      "Saturday: Open 24 hours",
+      "Sunday: Open 24 hours"
+    ]
+  },
+  "reviews": [
+    {
+      "author": "Debra Hillyard",
+      "rating": 3,
+      "text": "The actual apartment was lovely but it was very noisy so I haven't slept all weekend. There were dirty towels in the bathroom and bedroom and half used toiletries. The kitchen was smelly and there was rubbish left on the kitchen table. There are 10 apartments and 5 parking spaces and the road outside is residents only. I wouldn't stay there again.",
+      "relative_time": "6 years ago",
+      "time": 1565517190,
+      "language": "en"
+    },
+    {
+      "author": "Sue Rotheram",
+      "rating": 5,
+      "text": "This aparthotel  was perfect for our needs. Clean, light and airy with super views across the city it provided us with a great place to stay for the weekend. It really suited us to be self catering and everything we needed was there. A short distance from the centre but taxi services are very efficient. We would definitely stay there again.",
+      "relative_time": "6 years ago",
+      "time": 1556192736,
+      "language": "en"
+    },
+    {
+      "author": "Janet Dale",
+      "rating": 3,
+      "text": "Was quite shocked that there was no mattress or pillow protectors.  Cleaned the bathroom and kitchen as it was not clean.  An item fell behind a cabinet in my room, when moving the cabinet the skirting board and carpet was disgusting",
+      "relative_time": "a year ago",
+      "time": 1697924226,
+      "language": "en"
+    },
+    {
+      "author": "Nathan Cooper",
+      "rating": 1,
+      "text": "Got 2 apartments, one was already occupied by people. The other had no hot water for showers or heating. Terrible experience.",
+      "relative_time": "5 years ago",
+      "time": 1578858829,
+      "language": "en"
+    },
+    {
+      "author": "cameron findlay",
+      "rating": 1,
+      "text": "Arrived at 2:30am and the provided door code didn't work leaving us stranded 200 miles from home. Don't risk booking this place, go elsewhere",
+      "relative_time": "6 years ago",
+      "time": 1564452909,
+      "language": "en"
+    }
+  ],
+  "photos": [
+    {
+      "reference": "AciIO2f3BRPAWDQSn_-DzWCXdSphCgojK2G4JXFFqKR9UOGKcoII6ZttV5Rl5UvjBSKy6eNiYEQT_A2O07oBJ0MMyTJGXsdGRb8wnQuZhGnYOfOPd2baLwXSlghCpeDTBI4dsJ-okyP7Kpikx9NIxqwBTXhuPMlbQXGNWJGoEtZ0wclBGyvIjYpWDshPoLU52It_rgWDkDmyi83-e2glGzKfb6hwbQC2eI8UDDVNsGQGHAqn4OsnIigut1manLLCxNRNediB6UtMxIsFURd3Lsr5PKJn4RWKVC74aiu6MSddPue66Q",
+      "width": 4800,
+      "height": 3200,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/111527647073851654814\">I LIV APARTHOTEL</a>"
+      ],
+      "small": "images/photo_1_small_381ba05141c7520e2d830a249a7a59d9.jpg",
+      "medium": "images/photo_1_medium_f5d33d6580fd6bb52c2d59df05bdf8b6.jpg",
+      "large": "images/photo_1_large_ccbeb6fec1927993f1d387e6cbdef385.jpg"
+    },
+    {
+      "reference": "AciIO2fybA9kSNBj7M0kO7dVXq65o3LOXIzgsFmMb4MAibd6Xe6vyWL4sMTgnWpdfLFJNAPE0y5pWbm2iXOvQvYStlvkEnhhwAdXjytRVyU2ZhriWfMdaI9Nnx1buwN28E_gD0189E8qoxU1eI6vAC_w9ol1qWIJaDJAFW72qm_99EIYBgkj2C0FJjYyCA9oleaVuvjZnfxcjG_3XWXzOLuz3ZaY23d5BGtI3OGwt7KRiN6-HotlYptFRXJ2M-PVx50ooCXE5V8nnN41CzTFVGtqwnp-Na0Nmzram03t4uG7SifWPw",
+      "width": 4800,
+      "height": 3219,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/111527647073851654814\">I LIV APARTHOTEL</a>"
+      ],
+      "small": "images/photo_2_small_26811acea85d61b6742cb1b97b2d9224.jpg",
+      "medium": "images/photo_2_medium_cbea6aa4183d4d29e7d53913e83486b9.jpg",
+      "large": "images/photo_2_large_c94fe798fa41fbe3b3aa8bd6422693c8.jpg"
+    },
+    {
+      "reference": "AciIO2cl1N4PFbwoPZh9fUkPmc4xT9j4SqLI7pUFx4rlZCGaiJTow4j2VOhFE_nwhVP3rWsbc_NpaDvYu_uCR2IktJKOXZoeol3p403Xl5qUkGod599ZJGdacBgCCGJ71KlN-EzG3BHRO1IeUi5RWy06XEVv7jvEwcuBgkauIbhczc9LbkaWbe_AmKHxKMyQeyeDY91YAXUekw47keZxG7zB5rme6-LXzNWDNx_GFzUePR2T4ymhVy_5W4drzAGJGtZvoiapZ5Kv8UnciLCwLv91NfgT56W4rMH0QF1Ahjk26BkSnw",
+      "width": 4800,
+      "height": 3199,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/111527647073851654814\">I LIV APARTHOTEL</a>"
+      ],
+      "small": "images/photo_3_small_9d924334e9d9b8f31e93aa96e6b86d27.jpg",
+      "medium": "images/photo_3_medium_4836ef8745f275cdda4a5ca36df90c06.jpg",
+      "large": "images/photo_3_large_975af6da427fc206acb6bfba34063575.jpg"
+    },
+    {
+      "reference": "AciIO2eRr1RsalSymxLRTYQKsXvxVF-ei79061m7qDrRhrPoZx7RedbeTXM5slp8xYB9ffBojvrXWgzpTtkT9uNAtMYx4BFg9jaEUfc2OL0B5qua52NqegLs8HZi8irGiO05vivCgLcaEeeyhsAaWZFo0daOautLzn9uBe3jdh_ONdcQyKFcTi8XswuzcBPN9BVvVoqevhwWska98UulSmMOohSrZMYq_wixzn3vMrfolyL_1kXq5HXHYt8dnkYbS3rDryrjU5DmjmIEXrpFF2z9FeJNNP1by1rnnwgl0sGr1BOpvg",
+      "width": 4800,
+      "height": 3200,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/111527647073851654814\">I LIV APARTHOTEL</a>"
+      ],
+      "small": "images/photo_4_small_ae6a4dbb8ab2f09f763a2cb493e1503d.jpg",
+      "medium": "images/photo_4_medium_e219ab6f118ae5dce6a4a194c2f0fe65.jpg",
+      "large": "images/photo_4_large_52ce4da4fa3db9de93d0b423a5fe3a1c.jpg"
+    },
+    {
+      "reference": "AciIO2fQDXg32hb1seWTZbIRahjgr58tgeHfdsuOd6PqqO3BjwNWPaf663IkI7jqCeiRUU8-fj81lEsOQKEDfiLnhbNQbh8tbbAeaS7BXy0mzaOnBwqP2mik1v4_AJK7fjI2z9hVD9Spu_72m9wSQZHando06ZjWaAXPniTQ_fLrBeuZRxf0cpSpjKtgWAjsNF5vWIctx1727ys49XuwoA88_xjaUrhWXylBMnl3cn3ONwuYTvRZIisnM-hcWscICdP2H8JFHW0GFSxZUXZZkBeyOWwAIkqZCtrYSwtVZQEufAjFmQ",
+      "width": 4800,
+      "height": 3200,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/111527647073851654814\">I LIV APARTHOTEL</a>"
+      ],
+      "small": "images/photo_5_small_bd22459cb7702dc9e18269683699179a.jpg",
+      "medium": "images/photo_5_medium_3b5b2b5749e5ba8cdb2e3380cc3c8509.jpg",
+      "large": "images/photo_5_large_aed59c8dfde1753d75cd3040c8440e1b.jpg"
+    },
+    {
+      "reference": "AciIO2cyrmnwc6LCxomitfChjPmQwzB5o4bGbCvGxx4BrQuJOqIhrAGVCGt2sGa-KRIqKVOEWIuUL-CzCfPY0NVJHfqpSfy1jNqI4sOpD89VVz99yw-q4bxnLt8HZgFPXo5DVOc-_T6pjXAHaQqZbzsuPNyR0qBKRfJdKRT6F0FAeRPJajtPT3jXrZ00ETKhcTyUzD1AgrNYO5Iqz3oXW5BIadxP51FDqmvxATKeAzuofgN2z_agP-p0YYR4HL49H71JNNF1oE1k83t1ZGfADq5YoJKGOB3IyWHtI5CMi7RnC1riVw",
+      "width": 4800,
+      "height": 3200,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/111527647073851654814\">I LIV APARTHOTEL</a>"
+      ],
+      "small": "images/photo_6_small_500a25bfd9034cc09e1f74e86b709903.jpg",
+      "medium": "images/photo_6_medium_baf1bc5145848725b4600d7602b6d38d.jpg",
+      "large": "images/photo_6_large_0cebb071a5fa729b6719069e4bca0474.jpg"
+    },
+    {
+      "reference": "AciIO2ck216tNRlEZqVNahqNSN2eAi87ETtiTHL6AvkM4IhzIEip_THnvxl-k0jee4RyDgYz0IXEcqJTrhdYVMTLEN1LVTOPbrxg3RbUQ6WcjC_oqPLoMT4tkyXO81aqjnfsSaD7Vr5TT76bU9IoOOMkLehcRC26tbIQNUbrMZheLiX3x_PN79ftDs0MfYSR5hmZ4PkWYtbdm3ZWroVGVEvdjTBBPe-mpjXPYWueD8joAmku3vB8RiDCJ2PLREbzH43Gr1alhC4btxKW-n217UJNXPdB8jfC7E0o3M6byQh6UOuNjw",
+      "width": 4800,
+      "height": 3200,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/111527647073851654814\">I LIV APARTHOTEL</a>"
+      ],
+      "small": "images/photo_7_small_35f55ae8fdb4eafe72e97e753ceaf5a8.jpg",
+      "medium": "images/photo_7_medium_6b4b2229c825859cb9920849a8c2905a.jpg",
+      "large": "images/photo_7_large_417523c13f5a0cd8533b25c4199d9682.jpg"
+    },
+    {
+      "reference": "AciIO2fQil0DGHbU2NaI3Pu8HphbCiKrakLDwou-0Tm8E4uQc_LD8YPWiFxjYDF63oS9TTfk472bl5RxkC1e6djOvd9WgscM27YeCzUl31XvINdWSb24FmJoHZYTui5w7KF4hqAuZR1YjFZ7KUARFwfMzfBLdpELHcKH6J8Ow2QEdiCgtxTKgvZ-gg_OUMXBiBOOigzrBmy3tLJsLaW3e1DXaoOpH0B6VJ3XLUpkjcTGO1LsL3zo0JcTXgr3UN94smzlSXu_vSWf5lNGHCu9c7vWoqi0G1qtuHN6BfiYJxdhCDL-9w",
+      "width": 3979,
+      "height": 2952,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/111527647073851654814\">I LIV APARTHOTEL</a>"
+      ],
+      "small": "images/photo_8_small_dbe39e508e038e27a39a2f879456c26f.jpg",
+      "medium": "images/photo_8_medium_00c1f3ac8788c1426be0d958cb55d051.jpg",
+      "large": "images/photo_8_large_fbcd99a228d07e3f39f6f815f83c71f5.jpg"
+    },
+    {
+      "reference": "AciIO2deqt4tByMSDYrMqxv_hwY3JeyILxP1dy4NkR1QV8z7yVjt_W_MyHRWWe8NK8-grd82ps9QcQiK5w7irkKaYuNX_2Go3e_zC1y2-vXVEjcy_VoyJvO9jUqJiQ0q1p0lVmwDHBgV6NGyKLaKyfUa8DkGZr0-YxzWWXaaSEV9QyjUB_-pD86oVuncvYfG02TnbFhdm9nQ03CA44oH7v1dtgGfAPeIwM1-uRT_K3dtlAZ-RzvnoBdc6SeGZ34dB5FmsFseW1n08Fsvdr2KBaz4Fe1KRbWnRrwMZH33drWE7H-ukg",
+      "width": 2016,
+      "height": 1512,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/111527647073851654814\">I LIV APARTHOTEL</a>"
+      ],
+      "small": "images/photo_9_small_5014919458ffbd3ff0ca2cf460190bab.jpg",
+      "medium": "images/photo_9_medium_d8246060d71c77aaa251b72bd2455d6e.jpg",
+      "large": "images/photo_9_large_d3ab4d78e85d53f07935a27059d87796.jpg"
+    },
+    {
+      "reference": "AciIO2e6lwZ7M-GZMch7iRAzZw8QlJpH0euD2xJB8P30kvodfNUrs7VvnPC-bj3_lN5b2Pq6hvJIQSD_hEB-zi5dODTvAlLHCJB3hxNhubPcX1Fre50Q6loOMpicYUg7n6lI-ACsMvYElpwSlzIK_2jHqkCLLb-43qS6i_h_8ZEC52IqJ0Tp7t9qvh6cp2J0F22XmRP_k_clx4fgKEd3W83rnT2AlII0ySm1Je4M8p9nxONLEY_Sj3Gby2rhBkdjTEplkLx_2pmFiKlVaTy1-FZvP4lu22ZUvymzoY7gBsffUA-zmA",
+      "width": 4032,
+      "height": 3024,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/111527647073851654814\">I LIV APARTHOTEL</a>"
+      ],
+      "small": "images/photo_10_small_bc9f0205da5d4d6e23786c3b8826bd23.jpg",
+      "medium": "images/photo_10_medium_5a7c4957eb4c2bdc1a45a7fab874ffaf.jpg",
+      "large": "images/photo_10_large_380d27351a5be8f425485e07cd92b505.jpg"
+    }
+  ],
+  "business_intelligence": {
+    "services_mentioned": [
+      "catering",
+      "parking"
+    ],
+    "menu_items": [],
+    "positive_keywords": [
+      "great",
+      "love",
+      "perfect"
+    ],
+    "areas_for_improvement": [],
+    "unique_selling_points": []
+  },
+  "website_readiness_score": 100,
+  "missing_data_points": []
+}
