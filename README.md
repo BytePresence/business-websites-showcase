@@ -1,6 +1,6 @@
 # 🌐 Business Website Showcase
 
-Professional websites for 8 local businesses with 217 locally hosted images.
+Professional websites for 3 local businesses with 30 locally hosted images.
 
 ## 🚀 Quick Start
 
@@ -13,19 +13,14 @@ Professional websites for 8 local businesses with 217 locally hosted images.
 
 | Business | Live URL | Images | Status |
 |----------|----------|--------|--------|
-| aachen_hotel | [`/aachen-hotel/`](./aachen-hotel/) | 30 | ✅ Ready |
-| birkenhead | [`/birkenhead/`](./birkenhead/) | 30 | ✅ Ready |
-| cafe_rouge | [`/cafe-rouge/`](./cafe-rouge/) | 60 | ✅ Ready |
+| cafe_rouge | [`/cafe-rouge/`](./cafe-rouge/) | 10 | ✅ Ready |
 | chantilly_beatles_cafe | [`/chantilly-beatles-cafe/`](./chantilly-beatles-cafe/) | 10 | ✅ Ready |
-| coffee__fandisha | [`/coffee-fandisha/`](./coffee-fandisha/) | 0 | ✅ Ready |
-| gallery_cafe | [`/gallery-cafe/`](./gallery-cafe/) | 27 | ✅ Ready |
-| hatters_hostel_liverpool | [`/hatters-hostel-liverpool/`](./hatters-hostel-liverpool/) | 30 | ✅ Ready |
-| hotel_liverpool | [`/hotel-liverpool/`](./hotel-liverpool/) | 30 | ✅ Ready |
+| coffee_fandisha | [`/coffee-fandisha/`](./coffee-fandisha/) | 10 | ✅ Ready |
 
 ## 📊 Complete Statistics
-- **Total Websites**: 8
-- **Total Images**: 217 (all locally hosted)
-- **Average Images per Site**: 27
+- **Total Websites**: 3
+- **Total Images**: 30 (all locally hosted)
+- **Average Images per Site**: 10
 - **Templates**: Restaurant, Beauty Salon, Automotive, Retail, Professional Services, Modern
 - **Technologies**: HTML5, CSS3, Responsive Design, SEO Optimization
 

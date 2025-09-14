@@ -1,6 +1,6 @@
 # Cafe Rouge Website
 
-Generated: 2025-09-14 14:08:37
+Generated: 2025-09-14 19:26:57
 
 ## Enhanced Business Website Features
 
@@ -21,7 +21,7 @@ artisan coffee, fresh roasted, cozy atmosphere, barista crafted, premium beans
 
 ## Business Information
 - **Name:** Cafe Rouge
-- **Category:** restaurant
+- **Category:** cafe
 - **Address:** 14 Paradise St, Liverpool L1 8JF, UK
 - **Phone:** 0151 709 8657
 - **Rating:** 3.7 ⭐ (28 reviews)
