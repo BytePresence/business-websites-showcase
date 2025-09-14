@@ -1,540 +1,414 @@
 
-    <!DOCTYPE html>
-    <html lang='en'>
-    <head>
-        <meta charset='UTF-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-        <title>Cafe Rouge - Artisan Coffee & Cozy Atmosphere at Cafe Rouge</title>
-        <meta name='description' content='Discover exceptional artisan coffee at Cafe Rouge. Fresh roasted beans, skilled baristas, cozy atmosphere. Your perfect coffee experience awaits!'>
-        <meta name='keywords' content='coffee, cafe, 14 Paradise St, Liverpool, artisan coffee, fresh roasted, cozy atmosphere, barista crafted, premium beans'>
-        <link href='https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap' rel='stylesheet'>
-        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css'>
-        <style>
-            * { margin: 0; padding: 0; box-sizing: border-box; }
-            body { 
-                font-family: 'Source Sans Pro', Arial, sans-serif; 
-                background: #FFF8DC; 
-                color: #3C2414; 
-                line-height: 1.6; 
-            }
-            .container { max-width: 1400px; margin: 0 auto; padding: 0 15px; }
-            
-            /* Header */
-            header { 
-                background: #8B4513; 
-                color: white; 
-                padding: 1rem 0; 
-                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-                position: sticky;
-                top: 0;
-                z-index: 100;
-            }
-            .header-content { display: flex; justify-content: space-between; align-items: center; }
-            .logo { 
-                font-family: 'Playfair Display', serif; 
-                font-size: 2.2rem; 
-                font-weight: 700; 
-                color: #F4E4BC; 
-            }
-            .nav-links { display: flex; gap: 2rem; }
-            .nav-links a { 
-                color: white; 
-                text-decoration: none; 
-                font-weight: 600; 
-                transition: color 0.3s ease; 
-            }
-            .nav-links a:hover { color: #F4E4BC; }
-            
-            /* Hero Section */
-            .hero { 
-                
-            background: linear-gradient(135deg, #8B4513 0%, #D2691E 100%);
-            background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="2" fill="rgba(255,255,255,0.1)"/><circle cx="80" cy="40" r="1.5" fill="rgba(255,255,255,0.1)"/><circle cx="40" cy="70" r="2.5" fill="rgba(255,255,255,0.1)"/></svg>');
-        
-                color: white; 
-                text-align: center; 
-                padding: 120px 0 80px; 
-                position: relative;
-                overflow: hidden;
-            }
-            .hero::before {
-                content: '';
-                position: absolute;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                background: rgba(0,0,0,0.3);
-                z-index: 1;
-            }
-            .hero-content { position: relative; z-index: 2; }
-            .hero h1 { 
-                font-family: 'Playfair Display', serif; 
-                font-size: 3.5rem; 
-                margin-bottom: 1rem; 
-                text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-            }
-            .hero p { 
-                font-size: 1.3rem; 
-                margin-bottom: 2rem; 
-                font-weight: 300; 
-            }
-            .rating { 
-                font-size: 1.1rem; 
-                margin-bottom: 2rem; 
-                opacity: 0.9; 
-            }
-            .cta-button { 
-                background: #D2691E; 
-                color: white; 
-                padding: 15px 40px; 
-                border-radius: 50px; 
-                font-weight: 600; 
-                text-decoration: none; 
-                font-size: 1.1rem;
-                transition: transform 0.3s ease, box-shadow 0.3s ease;
-                display: inline-block;
-            }
-            .cta-button:hover { 
-                transform: translateY(-2px); 
-                box-shadow: 0 8px 25px rgba(0,0,0,0.2);
-            }
-            
-            /* Coffee Features */
-            .coffee-features { 
-                padding: 80px 0; 
-                background: white; 
-            }
-            .features-grid { 
-                display: grid; 
-                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
-                gap: 3rem; 
-                margin-top: 3rem;
-            }
-            .feature-item { 
-                text-align: center; 
-                padding: 2rem; 
-                border-radius: 15px; 
-                background: #F4E4BC; 
-                transition: transform 0.3s ease;
-            }
-            .feature-item:hover { transform: translateY(-5px); }
-            .feature-icon { 
-                font-size: 3rem; 
-                color: #8B4513; 
-                margin-bottom: 1rem; 
-            }
-            .feature-item h3 { 
-                font-family: 'Playfair Display', serif; 
-                color: #3C2414; 
-                margin-bottom: 1rem; 
-                font-size: 1.4rem;
-            }
-            
-            /* About Section */
-            .about { 
-                padding: 80px 0; 
-                background: #FFF8DC; 
-            }
-            .about-content { 
-                max-width: 800px; 
-                margin: 0 auto; 
-                text-align: center; 
-            }
-            .about h2 { 
-                font-family: 'Playfair Display', serif; 
-                font-size: 2.5rem; 
-                color: #8B4513; 
-                margin-bottom: 2rem; 
-            }
-            .about p { 
-                font-size: 1.1rem; 
-                line-height: 1.8; 
-                color: #3C2414; 
-                margin-bottom: 1.5rem;
-            }
-            
-            /* Menu Section */
-            .menu-preview { 
-                padding: 80px 0; 
-                background: white; 
-            }
-            .menu-preview h2 { 
-                font-family: 'Playfair Display', serif; 
-                font-size: 2.5rem; 
-                color: #8B4513; 
-                text-align: center; 
-                margin-bottom: 3rem; 
-            }
-            .menu-categories { 
-                display: grid; 
-                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
-                gap: 2rem; 
-            }
-            .menu-category { 
-                background: #F4E4BC; 
-                padding: 2rem; 
-                border-radius: 15px; 
-                text-align: center;
-            }
-            .menu-category h3 { 
-                font-family: 'Playfair Display', serif; 
-                color: #8B4513; 
-                margin-bottom: 1rem; 
-                font-size: 1.5rem;
-            }
-            .menu-items { 
-                list-style: none; 
-            }
-            .menu-items li { 
-                padding: 0.5rem 0; 
-                border-bottom: 1px dotted #8B4513; 
-            }
-            
-            /* Gallery */
-            .gallery { 
-                padding: 80px 0; 
-                background: #FFF8DC; 
-            }
-            .gallery h2 { 
-                font-family: 'Playfair Display', serif; 
-                font-size: 2.5rem; 
-                color: #8B4513; 
-                text-align: center; 
-                margin-bottom: 3rem; 
-            }
-            .photo-grid { 
-                display: grid; 
-                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
-                gap: 1.5rem; 
-            }
-            .photo-item { 
-                border-radius: 15px; 
-                overflow: hidden; 
-                box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-                transition: transform 0.3s ease;
-            }
-            .photo-item:hover { transform: scale(1.05); }
-            .photo-item img { 
-                width: 100%; 
-                height: 250px; 
-                object-fit: cover; 
-                display: block;
-            }
-            
-            /* Reviews */
-            .reviews { 
-                padding: 80px 0; 
-                background: white; 
-            }
-            .reviews h2 { 
-                font-family: 'Playfair Display', serif; 
-                font-size: 2.5rem; 
-                color: #8B4513; 
-                text-align: center; 
-                margin-bottom: 3rem; 
-            }
-            .reviews-grid { 
-                display: grid; 
-                grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
-                gap: 2rem; 
-            }
-            .review-card { 
-                background: #F4E4BC; 
-                padding: 2rem; 
-                border-radius: 15px; 
-                box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-                position: relative;
-            }
-            .review-card::before {
-                content: '"';
-                font-size: 4rem;
-                color: #8B4513;
-                position: absolute;
-                top: -10px;
-                left: 20px;
-                font-family: serif;
-            }
-            .stars { 
-                color: #FFD700; 
-                font-size: 1.2rem; 
-                margin-bottom: 1rem; 
-            }
-            .review-text { 
-                font-style: italic; 
-                margin-bottom: 1rem; 
-                line-height: 1.6;
-            }
-            .reviewer { 
-                font-weight: 600; 
-                color: #8B4513; 
-            }
-            
-            /* Contact */
-            .contact { 
-                background: #8B4513; 
-                color: white; 
-                padding: 80px 0; 
-            }
-            .contact h2 { 
-                font-family: 'Playfair Display', serif; 
-                font-size: 2.5rem; 
-                text-align: center; 
-                margin-bottom: 3rem; 
-                color: #F4E4BC;
-            }
-            .contact-grid { 
-                display: grid; 
-                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
-                gap: 3rem; 
-                margin-top: 2rem;
-            }
-            .contact-item { 
-                text-align: center; 
-                padding: 2rem;
-            }
-            .contact-item i { 
-                font-size: 2.5rem; 
-                color: #D2691E; 
-                margin-bottom: 1rem; 
-            }
-            .contact-item h3 { 
-                font-family: 'Playfair Display', serif; 
-                color: #F4E4BC; 
-                margin-bottom: 1rem; 
-            }
-            .hours { 
-                background: rgba(255,255,255,0.1); 
-                padding: 1.5rem; 
-                border-radius: 10px; 
-                margin-top: 1rem;
-            }
-            .hours h3 { 
-                color: #F4E4BC; 
-                margin-bottom: 1rem; 
-            }
-            .hours ul { 
-                list-style: none; 
-            }
-            .hours li { 
-                padding: 0.3rem 0; 
-            }
-            
-            /* Footer */
-            footer { 
-                background: #3C2414; 
-                color: white; 
-                text-align: center; 
-                padding: 2rem 0; 
-            }
-            
-            /* Responsive */
-            @media (max-width: 768px) {
-                .hero h1 { font-size: 2.5rem; }
-                .nav-links { display: none; }
-                .features-grid { grid-template-columns: 1fr; }
-                .photo-grid { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
-            }
-        </style>
-    </head>
-    <body>
-        <header>
-            <div class='container'>
-                <div class='header-content'>
-                    <div class='logo'><i class='fas fa-coffee'></i> Cafe Rouge</div>
-                    <nav class='nav-links'>
-                        <a href='#home'><i class='fas fa-home'></i> Home</a>
-                        <a href='#about'><i class='fas fa-info-circle'></i> About</a>
-                        <a href='#menu'><i class='fas fa-mug-hot'></i> Menu</a>
-                        <a href='#gallery'><i class='fas fa-images'></i> Gallery</a>
-                        <a href='#reviews'><i class='fas fa-star'></i> Reviews</a>
-                        <a href='#contact'><i class='fas fa-map-marker-alt'></i> Visit Us</a>
-                    </nav>
-                </div>
-            </div>
-        </header>
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Cafe Rouge | Artisan Coffee House</title>
+  <script src='https://cdn.tailwindcss.com'></script>
+  <link href='https://unpkg.com/aos@2.3.1/dist/aos.css' rel='stylesheet'>
+  <script src='https://unpkg.com/aos@2.3.1/dist/aos.js'></script>
+  <script src='https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js'></script>
+  <script src='https://unpkg.com/feather-icons'></script>
+  <style>
+    .hero-bg {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/photo_1_medium_d500cab762b42f9cec92b1ba3eb49627.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    .menu-item:hover .menu-overlay { opacity: 1; }
+      /* Styled reviews to match cafe theme */
+      .reviews {
+        padding: 5rem 0;
+        background: #fffbeb; /* amber-50 */
+      }
+      .reviews .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1.5rem;
+      }
+      .reviews h2 {
+        font-size: 2.25rem;
+        font-weight: 700;
+        color: #92400e; /* amber-800 */
+        text-align: center;
+        margin-bottom: 2.5rem;
+      }
+      .reviews-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.5rem;
+      }
+      .review-card {
+        background: #ffffff;
+        border-radius: 0.75rem;
+        padding: 1.25rem;
+        border-left: 4px solid #92400e;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.06);
+      }
+      .review-card p { color: #374151; line-height: 1.6; }
+      .stars { color: #f59e0b; font-size: 1.1rem; margin-bottom: 0.5rem; }
+      .reviewer { color: #92400e; font-weight: 600; margin-top: 0.75rem; }
+      .review-time { color: #6b7280; font-size: 0.9rem; }
+      @media (max-width: 768px) {
+        .reviews { padding: 3rem 0; }
+      }
+  </style>
+  <meta name='description' content='Discover exceptional artisan coffee at Cafe Rouge. Fresh roasted beans, skilled baristas, cozy atmosphere. Your perfect coffee experience awaits!'>
+  <meta name='keywords' content='cafe, coffee, artisan, 14 Paradise St, Liverpool'>
+  <link rel='preconnect' href='https://fonts.googleapis.com'>
+  <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+  <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap' rel='stylesheet'>
+</head>
+<body class='font-sans bg-amber-50'>
+  <nav class='bg-white shadow-md fixed w-full z-10'>
+    <div class='container mx-auto px-6 py-3 flex justify-between items-center'>
+      <a href='#' class='text-2xl font-bold text-amber-800'>Cafe Rouge</a>
+      <div class='hidden md:flex space-x-8'>
+        <a href='#home' class='text-amber-800 hover:text-amber-600'>Home</a>
+        <a href='#about' class='text-amber-800 hover:text-amber-600'>About</a>
+        <a href='#gallery' class='text-amber-800 hover:text-amber-600'>Gallery</a>
+        <a href='#contact' class='text-amber-800 hover:text-amber-600'>Contact</a>
+      </div>
+      <button class='md:hidden focus:outline-none'>
+        <i data-feather='menu' class='text-amber-800'></i>
+      </button>
+    </div>
+  </nav>
 
-        <section id='home' class='hero'>
-            <div class='container'>
-                <div class='hero-content'>
-                    <h1><i class='fas fa-coffee'></i> Cafe Rouge</h1>
-                    <p>Artisan Coffee & Cozy Atmosphere at Cafe Rouge</p>
-                    <div class="rating"><i class="fas fa-star"></i> 3.7 rating from 28 coffee lovers</div>
-                    <a href='#contact' class='cta-button'><i class='fas fa-coffee'></i> Order Now</a>
-                </div>
-            </div>
-        </section>
+  <section id='home' class='hero-bg h-screen flex items-center justify-center text-white pt-16'>
+    <div class='text-center px-4' data-aos='fade-up'>
+      <h1 class='text-5xl md:text-7xl font-bold mb-4'>Artisan Coffee & Cozy Atmosphere at Cafe Rouge</h1>
+      <p class='text-xl md:text-2xl mb-3'>3.7★ · 28 reviews</p>
+      <p class='text-xl md:text-2xl mb-8'>Handcrafted with passion</p>
+  <a href='#gallery' class='bg-amber-700 hover:bg-amber-600 text-white px-8 py-3 rounded-full font-semibold transition duration-300'>View Gallery</a>
+    </div>
+  </section>
 
-        <section class='coffee-features'>
-            <div class='container'>
-                <h2 style='text-align: center; font-family: "Playfair Display", serif; color: #8B4513; margin-bottom: 1rem; font-size: 2.5rem;'>Why Coffee Lovers Choose Us</h2>
-                <div class='features-grid'>
-                    <div class='feature-item'>
-                        <div class='feature-icon'><i class='fas fa-seedling'></i></div>
-                        <h3>Premium Beans</h3>
-                        <p>Carefully sourced from the world's finest coffee regions, roasted to perfection for exceptional flavor.</p>
-                    </div>
-                    <div class='feature-item'>
-                        <div class='feature-icon'><i class='fas fa-user-tie'></i></div>
-                        <h3>Expert Baristas</h3>
-                        <p>Our skilled baristas craft each cup with precision and passion, ensuring the perfect coffee experience.</p>
-                    </div>
-                    <div class='feature-item'>
-                        <div class='feature-icon'><i class='fas fa-heart'></i></div>
-                        <h3>Cozy Atmosphere</h3>
-                        <p>Relax in our warm, inviting space designed for coffee enjoyment and comfortable conversation.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+  
 
-        <section id='about' class='about'>
-            <div class='container'>
-                <div class='about-content'>
-                    <h2>Our Coffee Story</h2>
-                    <p>At Cafe Rouge, we're passionate about crafting the perfect cup of coffee. Our skilled baristas use only the finest, freshly roasted beans to create an exceptional coffee experience in a warm, welcoming environment.</p>
-                    <p>With a 3.7 star rating from 28 satisfied customers, we've become a beloved part of the 14 Paradise St, Liverpool coffee community.</p>
-                </div>
+  <section id='about' class='py-20 bg-amber-100'>
+    <div class='container mx-auto px-6'>
+      <div class='flex flex-col md:flex-row items-center'>
+        <div class='md:w-1/2 mb-10 md:mb-0' data-aos='fade-right'>
+          <img src='images/interior.jpg' alt='Our Cafe' class='rounded-lg shadow-xl'>
+        </div>
+        <div class='md:w-1/2 md:pl-12' data-aos='fade-left'>
+          <h2 class='text-4xl font-bold text-amber-800 mb-6'>Our Story</h2>
+          <p class='text-gray-700 mb-4'>At Cafe Rouge, we're passionate about crafting the perfect cup of coffee. Our skilled baristas use only the finest, freshly roasted beans to create an exceptional coffee experience in a warm, welcoming environment.</p>
+          <p class='text-gray-700 mb-6'>We source direct from ethical farms and roast in-house for freshness.</p>
+          <div class='flex space-x-4'>
+            <div class='bg-amber-800 text-white p-4 rounded-lg text-center'>
+              <i data-feather='coffee' class='w-8 h-8 mx-auto mb-2'></i>
+              <p>Specialty Drinks</p>
             </div>
-        </section>
-
-        <section id='menu' class='menu-preview'>
-            <div class='container'>
-                <h2><i class='fas fa-mug-hot'></i> Coffee & More</h2>
-                <div class='menu-categories'>
-                    <div class='menu-category'>
-                        <h3><i class='fas fa-coffee'></i> Espresso Drinks</h3>
-                        <ul class='menu-items'>
-                            <li>Cappuccino</li>
-                            <li>Latte</li>
-                            <li>Americano</li>
-                            <li>Macchiato</li>
-                        </ul>
-                    </div>
-                    <div class='menu-category'>
-                        <h3><i class='fas fa-snowflake'></i> Cold Beverages</h3>
-                        <ul class='menu-items'>
-                            <li>Iced Coffee</li>
-                            <li>Cold Brew</li>
-                            <li>Frappuccino</li>
-                            <li>Iced Tea</li>
-                        </ul>
-                    </div>
-                    <div class='menu-category'>
-                        <h3><i class='fas fa-bread-slice'></i> Fresh Pastries</h3>
-                        <ul class='menu-items'>
-                            <li>Croissants</li>
-                            <li>Muffins</li>
-                            <li>Cookies</li>
-                            <li>Sandwiches</li>
-                        </ul>
-                    </div>
-                </div>
+            <div class='bg-amber-800 text-white p-4 rounded-lg text-center'>
+              <i data-feather='award' class='w-8 h-8 mx-auto mb-2'></i>
+              <p>Expert Baristas</p>
             </div>
-        </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        
-        <section class='gallery'>
-            <div class='container'>
-                <h2>Our Gallery</h2>
-                <div class='photo-grid'>
-        
-                    <div class='photo-item'>
-                        <img src='images/photo_1_medium_cf8ae06d98d935bd7af6608e006aa4c9.jpg' alt='Cafe Rouge - Photo 1' loading='lazy'>
-                    </div>
-            
-                    <div class='photo-item'>
-                        <img src='images/photo_2_medium_8cb9154db74024a8aabc852df5efe564.jpg' alt='Cafe Rouge - Photo 2' loading='lazy'>
-                    </div>
-            
-                    <div class='photo-item'>
-                        <img src='images/photo_3_medium_e856f101d29aad210b02b2d12864c39d.jpg' alt='Cafe Rouge - Photo 3' loading='lazy'>
-                    </div>
-            
-                    <div class='photo-item'>
-                        <img src='images/photo_4_medium_b609a083be9b6378bebea71622cab832.jpg' alt='Cafe Rouge - Photo 4' loading='lazy'>
-                    </div>
-            
-                    <div class='photo-item'>
-                        <img src='images/photo_5_medium_cda82a91eedab121dd6283a0ab28b678.jpg' alt='Cafe Rouge - Photo 5' loading='lazy'>
-                    </div>
-            
-                    <div class='photo-item'>
-                        <img src='images/photo_6_medium_5dbf3a1cb50f02c80db787d58d3f4e43.jpg' alt='Cafe Rouge - Photo 6' loading='lazy'>
-                    </div>
-            
-                </div>
-            </div>
-        </section>
-        
-
-        
-        <section class='reviews'>
-            <div class='container'>
-                <h2>What Our Customers Say</h2>
-                <div class='reviews-grid'>
-        
-                    <div class='review-card'>
-                        <div class='stars'>★★★★★</div>
-                        <p>"One of my favorite spots in Liverpool, be it for breakfast, lunch or just a quick drink or coffee. It's also the place where my son first discovered babyccinos. They have outdoor seating as well, whic..."</p>
-                        <div class='reviewer'>- Nizar Swailem</div>
-                        <div class='review-time'>8 years ago</div>
-                    </div>
-            
-                    <div class='review-card'>
-                        <div class='stars'>★★★☆☆</div>
-                        <p>"This place is good in respects to service, you can tell that they're working at pleasing everyone.
-The food is generally just okay, the tomato soup was nice, chicken was overcooked, the crème brûlée w..."</p>
-                        <div class='reviewer'>- Zak Robbins</div>
-                        <div class='review-time'>8 years ago</div>
-                    </div>
-            
-                    <div class='review-card'>
-                        <div class='stars'>★★★★☆</div>
-                        <p>"Was there on a sunny summer evening. Belgium beers on the terrace in the late sun, prefect! French style food was average but selling point is the staff. Very friendly waiter!"</p>
-                        <div class='reviewer'>- Olivier Burgering</div>
-                        <div class='review-time'>9 years ago</div>
-                    </div>
-            
-                </div>
-            </div>
-        </section>
-        
-
-        <section id='contact' class='contact'>
-            <div class='container'>
-                <h2><i class='fas fa-map-marker-alt'></i> Visit Our Coffee Shop</h2>
-                <div class='contact-grid'>
-                    <div class='contact-item'>
-                        <i class='fas fa-map-marker-alt'></i>
-                        <h3>Location</h3>
-                        <p>14 Paradise St, Liverpool L1 8JF, UK</p>
-                        <a href="https://maps.google.com/?cid=6633634905019976681" target="_blank" style="color: #D2691E; text-decoration: none;">View on Google Maps</a>
-                    </div>
-                    <div class='contact-item'>
-                        <i class='fas fa-phone'></i>
-                        <h3>Call Us</h3>
-                        <p>0151 709 8657</p>
-                        <p style='color: #D2691E;'>For orders & reservations</p>
-                    </div>
-                    <div class='contact-item'>
-                        <i class='fas fa-clock'></i>
+  
+        <section id='gallery' class='py-20 bg-white'>
+            <div class='container mx-auto px-6'>
+                <h2 class='text-4xl font-bold text-center mb-8'>Our Gallery</h2>
+                <div id='gallery-caferouge' class='relative overflow-hidden'>
+                            <div class='track flex transition-transform duration-900 ease-out'>
                         
-                    </div>
+                <div class='gallery-card w-1/3 flex-shrink-0 p-2' data-aos='fade-up' data-aos-delay='0'>
+                    <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AciIO2fID4uyKX8XElRHqsV7SZJwgIlH_yOTOuvEAO1F96IorKxbraDjGnpp1GiBqK-Xo7IttEiypMVoEuj7zY5ial-4dA1erBxrBF6gy96z7GJagfvSJTchiVPuJWqpVHEZngNpK5JraHkPfKT6s580T-XZ_V65T6OfZXVafmO1BHIwmv_5vbtk66JI59FJespyZXxJN6-IC4BTunp4HM6qnVXMFnoU4z1RBylww7tUniIZiCMTeOG_67eAl7G9KBBDtSgchjJh499hjU5qWzcFSNXepa42_FXbob4Fa1RtIDUffg&key=AIzaSyDE6svuYKdfpKhyKvlFSYRoJC_ySy4YOs4' alt='Cafe Rouge - Photo 1' 
+                        class='w-full h-72 sm:h-96 md:h-[28rem] object-cover rounded-lg shadow' loading='lazy'>
                 </div>
-                <div style='text-align: center; margin-top: 3rem;'>
-                    <p style='font-size: 1.2rem; margin-bottom: 1rem;'>Visit us today for your perfect coffee moment!</p>
-                    <a href='tel:0151 709 8657' class='cta-button'><i class='fas fa-phone'></i> Call Now</a>
+                
+                <div class='gallery-card w-1/3 flex-shrink-0 p-2' data-aos='fade-up' data-aos-delay='100'>
+                    <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AciIO2ebH_9k9jD1zofRuIKnpYBe1wWH3cUhtpxRR8rGr5PAuxan5FBdGObq2oFQ3Z1aSAcYTckLDeVmcXDmn5eow1TdtctiR-zKFIkGbjc1RTwe_2T3RWtDleHQmhNJ8Bsj1DWggEzZFqp0NOyOO5s-hpJFYQ0H2hMsH4yNdK7H9KiejZP8uyF5ffPlhODxzG9jKC1fUaScmCfB4He5KiesJkVv7wzC9ZjLbbCj1JZWOQmoVRB5_ClufpfphLZEqa1gqK-Q7e1GSgd-AmQkEXU6lbvx3nGa0J6JfZKvklA98s9Mkil5P6o9L8dADvSqJTqZBNJPQtEeCV2OivPpRzi7RMaO-0fD7mJWHLCv-4eXS7BM4oEvKCLihTaZw5Ppcz5fWJyi8sqGPYq_llbW6Tbht8MsHXJO4LPoYWrrSjTSzNINraw&key=AIzaSyDE6svuYKdfpKhyKvlFSYRoJC_ySy4YOs4' alt='Cafe Rouge - Photo 2' 
+                        class='w-full h-72 sm:h-96 md:h-[28rem] object-cover rounded-lg shadow' loading='lazy'>
+                </div>
+                
+                <div class='gallery-card w-1/3 flex-shrink-0 p-2' data-aos='fade-up' data-aos-delay='200'>
+                    <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AciIO2cV0jZiIm7sKAIzw5oaQMCEU2RU0yCjfxtKOAHvwEZkFpaAOEmD8bYcu8pHECXuk9VnBqPZkef8qDUdW8N1htjx3ojfVHhcMBWSxWK0Owb6zlEcVVhic4mMsnXp1mmeEveTT9XAJdFXBMtVti9Tpbya3L8PtaCaBvFgBbAD4KlNkYYN0OsKJh43r_8CZ5UbtROhFA3SdESpfahcQikI7xk5tyB_9rLhQ9P-d8lxMUOeGSnkFQKkHSQh8pzGT572oWJF8ah7EoDwkre8bIYMrC-ntPkbj2m0jqL9zz8drCBw3G1HZL1VVSCMpPf6JHFFrhJwy4T3P2lZfhzPthTPSCRcI4ZdVK_XZISuFUV_7o7by5tNtBXc_0CgfqIdUL0UVvb6-0wqobvC33KZ822wFGYt_KLwhBYysc8aWR5t3mwAqpGM&key=AIzaSyDE6svuYKdfpKhyKvlFSYRoJC_ySy4YOs4' alt='Cafe Rouge - Photo 3' 
+                        class='w-full h-72 sm:h-96 md:h-[28rem] object-cover rounded-lg shadow' loading='lazy'>
+                </div>
+                
+                <div class='gallery-card w-1/3 flex-shrink-0 p-2' data-aos='fade-up' data-aos-delay='0'>
+                    <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AciIO2cMKXnAgIBFS22cy2onAK0FTdMlUGbNLkKFsJKAz6R-K5zdL0RpwG3nJIDtMtFxoRyEUF-V1rSP85YjGVHyc9xR3z6Dx0yE1RSCwokjlv5zfP97-0W9hhrTSMer2bqQCwCWHYKb7yvCjlE03y5Q9XSo7BsJXQ8Q9nBo40K_4Pslk9tF6SZizXr21RzRzucgDq23WZx3DTw5VTNfEwKBdppuewB0H8nWWIbdb-ThdOIIKl7jDYDnUWwky0Zcdkqndjt65XHm20uCWofr7xxUgNKp64-HxyjGTW4WeTH3-iNhWbS45Nf9Uu9Uc_0OznCYZZapSuLs7gtztja8Y-ziRgEv8aK3uDOrZgQfEX10eQG36o6lK1LcH6wNd5THX6FWWSFS1UnDXHb2MSda7KBqiJOk0vdc6pNeJXbY_UFhQajoQhuH&key=AIzaSyDE6svuYKdfpKhyKvlFSYRoJC_ySy4YOs4' alt='Cafe Rouge - Photo 4' 
+                        class='w-full h-72 sm:h-96 md:h-[28rem] object-cover rounded-lg shadow' loading='lazy'>
+                </div>
+                
+                <div class='gallery-card w-1/3 flex-shrink-0 p-2' data-aos='fade-up' data-aos-delay='100'>
+                    <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AciIO2fJZOBrM8fO5wY023aB4qGHw8nc5KrUMPtUmGFuBuCOu244BchM7ZfJPn1Y1Srylf_NFZbESEhOvnk_FXro19ISpG-mAuOlqEm8vuNxb6eXhazIXs-dj5V0k2ch68eWosUnL1mf6EWmVmFIIwOEJiPhRr6AXtRXofaiKinpD1Iiety6Da2gt4Q9mXoUncf0AXinQJwYWUx9kximZIUlyiDobGEDytYVQhocfKXkN8ufQ3LhsVfm2FY_iOmkutxNLB8cUIGfLlPWsdeyyd9uRb9TLv9qvh32LOUQuBaHFrfF7y91riXUZ_DoBfOSDJKDPbDdd_e7zpEUgiws_QZbSGvJHjnwvnyMDJG33jHnEIPQArLNt5aG2c7pP8CfRV2hw5leMNzQ_nhwjBQgfoQPvNHunnjDi7cY0oIGbN3vpKsswWKY&key=AIzaSyDE6svuYKdfpKhyKvlFSYRoJC_ySy4YOs4' alt='Cafe Rouge - Photo 5' 
+                        class='w-full h-72 sm:h-96 md:h-[28rem] object-cover rounded-lg shadow' loading='lazy'>
+                </div>
+                
+                <div class='gallery-card w-1/3 flex-shrink-0 p-2' data-aos='fade-up' data-aos-delay='200'>
+                    <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AciIO2cxqy2XE6EtmVEDWGboiKfb0JQyikBe0XpI71oxl8UJS5HWJ4_z0na-4FhAnqWiU7GzOqRjf0LAntxvqqQtqS3SkqHytIlDPyXiIuyajLbJqqp17QGLdGcfCxZsP0I0K6QyMleJnwOiYdNSHAxQbdTwfX28lU2xKnrxgEOzzDI8INBTrxhtK5nXXPtJ3b7Glr-44bQGzpfFxlp95RHT30xtZMAIH6k-5lqLBwdi6oLSZIpPW-yL9nBpreKyR_HUU3nybEqC2TIDtBU8ID_G_3xoeHBHeefWs-E3mb5CCKTxh92977Y_J6yrxpt_lYtZC0xUTrfhFxfleMJ72BcD5DDEXMnl0n_QgOXIEFEgvS7l4KJsvkFpMIS12xwRD3RFrCVGz5lQ2JnH9fj8dlSD4ga8NNtkWhBylBga3viFCwjsoq6J&key=AIzaSyDE6svuYKdfpKhyKvlFSYRoJC_ySy4YOs4' alt='Cafe Rouge - Photo 6' 
+                        class='w-full h-72 sm:h-96 md:h-[28rem] object-cover rounded-lg shadow' loading='lazy'>
+                </div>
+                
+                <div class='gallery-card w-1/3 flex-shrink-0 p-2' data-aos='fade-up' data-aos-delay='0'>
+                    <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AciIO2dgyFEPRILUl1B9I-X4tNKCVoLV-ryFbS-qC1A5m0iaRkIQ4GeI_ub_SgIizOX3OmTpvIHhBXocQUwIZWmd1EY880tspvX3a9yeyGzjA0IsuFdRyTjhRjZOIoX6p83BGUdh4wep0xSzqmlPWliC-a6-mYCXDWoluMYhDesyR93xUtB8Yi_-X8LEWPB5fXGoMiL4A2k6lCUW4O_MhoofdY0CIbvR0kZ7pJU4KgI-Q8hsuArL19DVevBCi5hANnuKq7t-zH4MikdK1GqWUS3IYRJmtkl5cRGtJAD0z1CyhvSIL1jaN_9etjgTh0lBKsdY5Ikn5S4Gf-Tpqsf6NfM--Vs8_kFapAZtoqnr4m0AcN8vtRtGZXLF9EhmFRO9yex2WnIcYGyFPEWIAo4_SgPhkwTR5j2Shr6DHe01kp28Ce3b5tE&key=AIzaSyDE6svuYKdfpKhyKvlFSYRoJC_ySy4YOs4' alt='Cafe Rouge - Photo 7' 
+                        class='w-full h-72 sm:h-96 md:h-[28rem] object-cover rounded-lg shadow' loading='lazy'>
+                </div>
+                
+                <div class='gallery-card w-1/3 flex-shrink-0 p-2' data-aos='fade-up' data-aos-delay='100'>
+                    <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AciIO2eXYQI9wCXegT64g1zARsgx-jXsZ-Mm7--KP3ryvCwGHW_-MIgbpClDM8j2O1Fg-wZUBbpn3bZhfgEP-jUYdG-LYjJkRUTFWU2TVcyqulHemFDJq8CSB1W9J0d9lEOWpDZ4NGMt3oBmDJYV1X-wedmLh72Q6Iqhl29-MrVIQuIHL0t4l1WwMDZFhTErwFSVYhtPVKsGf2cZ-sSI6xqhgSedWYUR8vLJtSFgA6aqOgDCu1QaDTekhWoGl-nsEIqKntRr2lrjFV0t7gZOtQcJVywxhqr3-X7W3jbYdv2xoR5NVJr20-Dc3UpUc-sarQvh2ZQJvl37YstUuAYA6d5qFlSxBpDjIpBBGkbJLvMrCXF0WFIiFOKB6UTA7lEBUxrIz1iVdoneJI2XtT4EOpfWyh-acda6q5YNMcSliwObSznuGU5V&key=AIzaSyDE6svuYKdfpKhyKvlFSYRoJC_ySy4YOs4' alt='Cafe Rouge - Photo 8' 
+                        class='w-full h-72 sm:h-96 md:h-[28rem] object-cover rounded-lg shadow' loading='lazy'>
+                </div>
+                
+                <div class='gallery-card w-1/3 flex-shrink-0 p-2' data-aos='fade-up' data-aos-delay='200'>
+                    <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AciIO2fW0HL0KZI62EbAiBKNAVht1dokNNYVOIHrlRma89DtPs6di_k6R8gUbSXo9xZbl005SwEgpNHY2YNIRiw7jh4ue4r7XbmpeW6cPXAopoD4AQ4RyLTWlVZO6fn8s-g6S7zf-phBrY_0IDckGRNQRal4WYsp12cHB4jTVJAzfadt5YuAjlnPVoKDknR3cm9Lpu-Etjp5f41DCrrfEFAAYzo223Uqb5M-7TMPnxXlZEtIvMwj90dCyz2Lw09vCYAHx2oVMIpbeAvwINxI5qHdSFqh8HoOt_IFRQYe7zSeJex2bAx4qbqnEcIE6A3dExfmCz2m-tl3du66mlF_LwNu3qGexoZktubU5kYZvFudVm2y7CbD-_b8WpB1vC5HfMWeTbOdG0mWPxFiTPQZOmYZuH3rcRyIo7AkRB0oGmWQIZEio0xm&key=AIzaSyDE6svuYKdfpKhyKvlFSYRoJC_ySy4YOs4' alt='Cafe Rouge - Photo 9' 
+                        class='w-full h-72 sm:h-96 md:h-[28rem] object-cover rounded-lg shadow' loading='lazy'>
+                </div>
+                
+                <div class='gallery-card w-1/3 flex-shrink-0 p-2' data-aos='fade-up' data-aos-delay='0'>
+                    <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AciIO2eFeVQQU-6_GtxYzxG25Bo5FQfuFsj2eje75m7w809w0rtuG6USnSMqf3kdm6qGA4GCpI-0ze6BVQrA0DJdOn9tVvURq33LRoEPOjXrM2Oitafx8wh_ywRzMAKyouvBL93xD63FV0itjKWVe9a8mDdWDfH6jVhtV94krB_7SpzT8Kit8xq9t245g4UNLKy6yuP3nd_h813JYW21Uk5AOUaQMZ7_G6724CAw74qG2KiKycGBQa8pEGlcYUM3ISDpLChAHU9pdcnODUPhrH4FXKhHVUE_SqHH79nP3TzzlXw_ZwMGN2CDjZ_O2cgCUkDQC9AqF08NU51nclrJsI8g6GZ0OVVhsDvXuCeo9o6q4SWhnT47l6wu9gJAcUV1DK73hY4A5cNkKfs4HBWtf7cpexYIgVU2G7swVEEiwk0aYvygmFM&key=AIzaSyDE6svuYKdfpKhyKvlFSYRoJC_ySy4YOs4' alt='Cafe Rouge - Photo 10' 
+                        class='w-full h-72 sm:h-96 md:h-[28rem] object-cover rounded-lg shadow' loading='lazy'>
+                </div>
+                
+                    </div>
+                    
+                <button class='prev absolute left-3 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full' aria-label='Previous image'>
+                    <svg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5' viewBox='0 0 20 20' fill='currentColor'>
+                        <path fill-rule='evenodd' d='M12.707 15.707a1 1 0 01-1.414 0l-5-5a1 1 0 010-1.414l5-5a1 1 0 111.414 1.414L8.414 10l4.293 4.293a1 1 0 010 1.414z' clip-rule='evenodd' />
+                    </svg>
+                </button>
+                <button class='next absolute right-3 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full' aria-label='Next image'>
+                    <svg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5' viewBox='0 0 20 20' fill='currentColor'>
+                        <path fill-rule='evenodd' d='M7.293 4.293a1 1 0 011.414 0l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414-1.414L10.586 10 7.293 6.707a1 1 0 010-1.414z' clip-rule='evenodd' />
+                    </svg>
+                </button>
+            
                 </div>
             </div>
         </section>
+        <script>
+            (function() {
+                var root = document.getElementById('gallery-caferouge');
+                if (!root) return;
+                var track = root.querySelector('.track');
+                var prev = root.querySelector('.prev');
+                var next = root.querySelector('.next');
+                var count = track ? track.children.length : 0;
+                if (!track || count === 0) return;
 
-        <footer>
-            <div class='container'>
-                <p>&copy; 2025 Cafe Rouge. All rights reserved. | Artisan Coffee in 14 Paradise St, Liverpool</p>
-                <p>Crafted with <i class='fas fa-heart' style='color: #D2691E;'></i> by Business Profiling Engine</p>
+                var index = 0;
+                var visible = 3; // show 3 photos
+                function update() {
+                    track.style.transform = 'translateX(-' + (index * (100/visible)) + '%)';
+                }
+                function go(n) {
+                    if (n < 0) n = 0;
+                    if (n > count - visible) n = count - visible;
+                    index = n;
+                    update();
+                }
+                if (prev) prev.addEventListener('click', function() { go(index - 1); });
+                if (next) next.addEventListener('click', function() { go(index + 1); });
+
+                // Swipe support for mobile
+                var startX = 0, dx = 0, touching = false;
+                root.addEventListener('touchstart', function(e) { touching = true; startX = e.touches[0].clientX; dx = 0; }, {passive: true});
+                root.addEventListener('touchmove', function(e) { if (!touching) return; dx = e.touches[0].clientX - startX; }, {passive: true});
+                root.addEventListener('touchend', function() {
+                    if (!touching) return;
+                    touching = false;
+                    if (Math.abs(dx) > 40) {
+                        if (dx < 0) go(index + 1);
+                        else go(index - 1);
+                    }
+                });
+                update();
+            })();
+        </script>
+        
+  
+        <section id='reviews' class='py-20 bg-gray-50'>
+            <div class='container mx-auto px-6'>
+                <h2 class='text-4xl font-bold text-center mb-8'>What Our Customers Say</h2>
+                <div id='reviews-caferouge' class='relative overflow-hidden'>
+                            <div class='track flex transition-transform duration-900 ease-out'>
+                        
+                <div class='review-card w-full sm:w-1/2 flex-shrink-0 p-4' data-aos='fade-right' data-aos-delay='0'>
+                    <div class='bg-white rounded-lg shadow p-6 h-full flex flex-col'>
+                        <div class='stars text-yellow-500 mb-2'>★★★★★</div>
+                        <p class='text-gray-700 flex-grow'>
+                            <span class='short-text'>One of my favorite spots in Liverpool, be it for breakfast, lunch or just a quick drink or coffee. It's also the place where my son first discovered babyccinos. They have outdoor seating as well, whic...</span>
+                            <span class='full-text hidden'>One of my favorite spots in Liverpool, be it for breakfast, lunch or just a quick drink or coffee. It's also the place where my son first discovered babyccinos. They have outdoor seating as well, which is great if you're a smoker, and the staff is incredibly friendly and helpful. A must try if you're visiting the city.</span>
+                        </p>
+                        <button class='toggle-btn text-blue-600 mt-2 underline text-sm'>Show More</button>
+                        <div class='mt-4 text-sm text-gray-500'>
+                            - Nizar Swailem
+                            <div>8 years ago</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class='review-card w-full sm:w-1/2 flex-shrink-0 p-4' data-aos='fade-left' data-aos-delay='100'>
+                    <div class='bg-white rounded-lg shadow p-6 h-full flex flex-col'>
+                        <div class='stars text-yellow-500 mb-2'>★★★☆☆</div>
+                        <p class='text-gray-700 flex-grow'>
+                            <span class='short-text'>This place is good in respects to service, you can tell that they're working at pleasing everyone.
+The food is generally just okay, the tomato soup was nice, chicken was overcooked, the crème brûlée w...</span>
+                            <span class='full-text hidden'>This place is good in respects to service, you can tell that they're working at pleasing everyone.
+The food is generally just okay, the tomato soup was nice, chicken was overcooked, the crème brûlée was lacking in flavour, and the strawberry sorbet tasted like cough mixture.</span>
+                        </p>
+                        <button class='toggle-btn text-blue-600 mt-2 underline text-sm'>Show More</button>
+                        <div class='mt-4 text-sm text-gray-500'>
+                            - Zak Robbins
+                            <div>8 years ago</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class='review-card w-full sm:w-1/2 flex-shrink-0 p-4' data-aos='fade-right' data-aos-delay='0'>
+                    <div class='bg-white rounded-lg shadow p-6 h-full flex flex-col'>
+                        <div class='stars text-yellow-500 mb-2'>★★★★☆</div>
+                        <p class='text-gray-700 flex-grow'>
+                            <span class='short-text'>Was there on a sunny summer evening. Belgium beers on the terrace in the late sun, prefect! French style food was average but selling point is the staff. Very friendly waiter!</span>
+                            <span class='full-text hidden'>Was there on a sunny summer evening. Belgium beers on the terrace in the late sun, prefect! French style food was average but selling point is the staff. Very friendly waiter!</span>
+                        </p>
+                        
+                        <div class='mt-4 text-sm text-gray-500'>
+                            - Olivier Burgering
+                            <div>9 years ago</div>
+                        </div>
+                    </div>
+                </div>
+                
+                    </div>
+                    
+                <button class='prev absolute left-3 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full' aria-label='Previous review'>
+                    <svg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5' viewBox='0 0 20 20' fill='currentColor'>
+                        <path fill-rule='evenodd' d='M12.707 15.707a1 1 0 01-1.414 0l-5-5a1 1 0 010-1.414l5-5a1 1 0 111.414 1.414L8.414 10l4.293 4.293a1 1 0 010 1.414z' clip-rule='evenodd' />
+                    </svg>
+                </button>
+                <button class='next absolute right-3 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full' aria-label='Next review'>
+                    <svg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5' viewBox='0 0 20 20' fill='currentColor'>
+                        <path fill-rule='evenodd' d='M7.293 4.293a1 1 0 011.414 0l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414-1.414L10.586 10 7.293 6.707a1 1 0 010-1.414z' clip-rule='evenodd' />
+                    </svg>
+                </button>
+            
+                </div>
             </div>
-        </footer>
-    </body>
-    </html>
-    
+        </section>
+        <script>
+            (function() {
+                var root = document.getElementById('reviews-caferouge');
+                if (!root) return;
+                var track = root.querySelector('.track');
+                var prev = root.querySelector('.prev');
+                var next = root.querySelector('.next');
+                var count = track ? track.children.length : 0;
+                if (!track || count === 0) return;
+
+                var index = 0;
+                var visible = Math.min(2, count);
+                function update() {
+                    track.style.transform = 'translateX(-' + (index * (100/visible)) + '%)';
+                }
+                function go(n) {
+                    if (n < 0) n = 0;
+                    if (n > count - visible) n = count - visible;
+                    index = n;
+                    update();
+                }
+                if (prev) prev.addEventListener('click', function() { go(index - 1); });
+                if (next) next.addEventListener('click', function() { go(index + 1); });
+
+                // Swipe for mobile
+                var startX = 0, dx = 0, touching = false;
+                root.addEventListener('touchstart', function(e) { touching = true; startX = e.touches[0].clientX; dx = 0; }, {passive: true});
+                root.addEventListener('touchmove', function(e) { if (!touching) return; dx = e.touches[0].clientX - startX; }, {passive: true});
+                root.addEventListener('touchend', function() {
+                    if (!touching) return;
+                    touching = false;
+                    if (Math.abs(dx) > 40) {
+                        if (dx < 0) go(index + 1);
+                        else go(index - 1);
+                    }
+                });
+
+                // Toggle show more/less
+                root.querySelectorAll('.toggle-btn').forEach(function(btn) {
+                    btn.addEventListener('click', function() {
+                        var card = btn.closest('.review-card');
+                        var shortText = card.querySelector('.short-text');
+                        var fullText = card.querySelector('.full-text');
+                        if (fullText.classList.contains('hidden')) {
+                            shortText.classList.add('hidden');
+                            fullText.classList.remove('hidden');
+                            btn.textContent = 'Show Less';
+                        } else {
+                            shortText.classList.remove('hidden');
+                            fullText.classList.add('hidden');
+                            btn.textContent = 'Show More';
+                        }
+                    });
+                });
+
+                update();
+            })();
+        </script>
+        
+
+  <section id='contact' class='py-20 bg-white'>
+    <div class='container mx-auto px-6'>
+      <h2 class='text-4xl font-bold text-center text-amber-800 mb-16' data-aos='fade-up'>Visit Us</h2>
+      <div class='flex flex-col md:flex-row'>
+        <div class='md:w-1/2 mb-10 md:mb-0' data-aos='fade-right'>
+          <div class='bg-amber-100 p-8 rounded-lg shadow-lg'>
+            <h3 class='text-2xl font-bold text-amber-800 mb-4'>Contact Information</h3>
+            <div class='mb-6'>
+              <div class='flex items-center mb-2'>
+                <i data-feather='map-pin' class='mr-3 text-amber-700'></i>
+                <p>14 Paradise St, Liverpool L1 8JF, UK</p>
+              </div>
+              <div class='flex items-center mb-2'>
+                <i data-feather='phone' class='mr-3 text-amber-700'></i>
+                <p>0151 709 8657</p>
+              </div>
+              <div class='flex items-center'><i data-feather='navigation' class='mr-3 text-amber-700'></i><a href='https://maps.google.com/?cid=6633634905019976681' class='text-amber-800 underline' target='_blank'>Directions</a></div>
+            </div>
+            <h3 class='text-2xl font-bold text-amber-800 mb-4'>Hours</h3>
+            <div class='space-y-2'>
+              
+            </div>
+          </div>
+        </div>
+        <div class='md:w-1/2 md:pl-12' data-aos='fade-left'>
+          <div class='bg-amber-100 p-8 rounded-lg shadow-lg text-center'>
+            <h3 class='text-2xl font-bold text-amber-800 mb-4'>Order or Book</h3>
+            <a href='tel:0151 709 8657' class='bg-amber-800 hover:bg-amber-700 text-white px-6 py-2 rounded-lg font-semibold transition duration-300 inline-flex items-center justify-center'>
+              <i data-feather='phone' class='mr-2'></i> Call Now
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class='bg-amber-900 text-white py-8'>
+    <div class='container mx-auto px-6 text-center'>
+      <h3 class='text-2xl font-bold'>Cafe Rouge</h3>
+      <p class='mt-2'>Artisan Coffee House · 14 Paradise St, Liverpool</p>
+      <div class='border-t border-amber-800 mt-8 pt-8'>
+        <p>&copy; 2025 Cafe Rouge. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    AOS.init({
+      duration: 900,
+      once: false,
+      offset: 100,
+      easing: 'ease-out-cubic'
+    });
+  </script>
+  <script>feather.replace();</script>
+</body>
+</html>

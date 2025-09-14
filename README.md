@@ -1,6 +1,6 @@
 # 🌐 Business Website Showcase
 
-Professional websites for 14 local businesses with 318 locally hosted images.
+Professional websites for 8 local businesses with 217 locally hosted images.
 
 ## 🚀 Quick Start
 
@@ -13,25 +13,19 @@ Professional websites for 14 local businesses with 318 locally hosted images.
 
 | Business | Live URL | Images | Status |
 |----------|----------|--------|--------|
-| aachen_hotel | [`/aachen-hotel/`](./aachen-hotel/) | 60 | ✅ Ready |
-| aachen_hotel__restaurant | [`/aachen-hotel-restaurant/`](./aachen-hotel-restaurant/) | 0 | ✅ Ready |
-| apt_health__wellness_center | [`/apt-health-wellness-center/`](./apt-health-wellness-center/) | 0 | ✅ Ready |
-| birkenhead | [`/birkenhead/`](./birkenhead/) | 60 | ✅ Ready |
+| aachen_hotel | [`/aachen-hotel/`](./aachen-hotel/) | 30 | ✅ Ready |
+| birkenhead | [`/birkenhead/`](./birkenhead/) | 30 | ✅ Ready |
 | cafe_rouge | [`/cafe-rouge/`](./cafe-rouge/) | 60 | ✅ Ready |
-| chantilly_beatles_cafe | [`/chantilly-beatles-cafe/`](./chantilly-beatles-cafe/) | 30 | ✅ Ready |
+| chantilly_beatles_cafe | [`/chantilly-beatles-cafe/`](./chantilly-beatles-cafe/) | 10 | ✅ Ready |
 | coffee__fandisha | [`/coffee-fandisha/`](./coffee-fandisha/) | 0 | ✅ Ready |
-| dr_ian_cosmetic_solutions | [`/dr-ian-cosmetic-solutions/`](./dr-ian-cosmetic-solutions/) | 0 | ✅ Ready |
-| hatters_hostel_liverpool | [`/hatters-hostel-liverpool/`](./hatters-hostel-liverpool/) | 60 | ✅ Ready |
-| i_liv_aparthotel | [`/i-liv-aparthotel/`](./i-liv-aparthotel/) | 30 | ✅ Ready |
-| nova | [`/nova/`](./nova/) | 3 | ✅ Ready |
-| origin_hair_makeup__beauty | [`/origin-hair-makeup-beauty/`](./origin-hair-makeup-beauty/) | 0 | ✅ Ready |
-| phase_hair_salon | [`/phase-hair-salon/`](./phase-hair-salon/) | 3 | ✅ Ready |
-| the_old_bill_apartments_liverpool | [`/the-old-bill-apartments-liverpool/`](./the-old-bill-apartments-liverpool/) | 12 | ✅ Ready |
+| gallery_cafe | [`/gallery-cafe/`](./gallery-cafe/) | 27 | ✅ Ready |
+| hatters_hostel_liverpool | [`/hatters-hostel-liverpool/`](./hatters-hostel-liverpool/) | 30 | ✅ Ready |
+| hotel_liverpool | [`/hotel-liverpool/`](./hotel-liverpool/) | 30 | ✅ Ready |
 
 ## 📊 Complete Statistics
-- **Total Websites**: 14
-- **Total Images**: 318 (all locally hosted)
-- **Average Images per Site**: 22
+- **Total Websites**: 8
+- **Total Images**: 217 (all locally hosted)
+- **Average Images per Site**: 27
 - **Templates**: Restaurant, Beauty Salon, Automotive, Retail, Professional Services, Modern
 - **Technologies**: HTML5, CSS3, Responsive Design, SEO Optimization
 
