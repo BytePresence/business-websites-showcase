@@ -1,0 +1,132 @@
+{
+  "name": "Birkenhead",
+  "category": "hotel",
+  "business_types": [
+    "locality",
+    "political"
+  ],
+  "address": "Birkenhead, UK",
+  "vicinity": "Birkenhead",
+  "phone": null,
+  "international_phone": null,
+  "location": {
+    "lat": 53.38811639999999,
+    "lng": -3.0299176
+  },
+  "plus_code": null,
+  "rating": null,
+  "total_reviews": null,
+  "price_level": null,
+  "business_status": null,
+  "google_maps_url": "https://maps.google.com/?cid=11148846444237992266",
+  "place_id": "ChIJH_Wc0EUme0gRSrEunMWouJo",
+  "opening_hours": null,
+  "current_opening_hours": null,
+  "reviews": [],
+  "photos": [
+    {
+      "reference": "AciIO2eum8HEPrO5vSOetgxi0pPDh5D6r_nh4F7ApN49-6ySGiIQRIZaXVMZOx50brSseGbwmZT3f3OnBiy6M6RhVM0c945vdm0biKsFCujdrU5C7Xdf4iDVUfD6otXuHGvtBvTEC65JZfX3wtZyfVEulFx5xOmZ-xbBAunjpPZMQ5p9NVbSq1pZoCLmHmudht0ioRBEzCJOqM_r5GDi0B_QTKl67DQqPii0pSWcCHiC6x250JJt-5x5dJsmrZYETfDw8as-515pv9ImBRyWyQHRhe8Y-aY5vB3MTjH-W3NNv4ARncR8fYL7YcslZXhSkICCSt30mFG-t7jy4nVsq8ZZoSjdtJJdoHQX19gd6hadoTrqTI02wHVeQsxDJQjNFNqpywqLSwjT8YnJ8yjmEB8IboYj-6EDIEigRTdTXoZUpq15Vw",
+      "width": 2736,
+      "height": 3648,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/104327824502370277257\">Gary Beale</a>"
+      ],
+      "medium": "images/photo_1_medium_819c936348304ebab319d73d4dce2dff.jpg"
+    },
+    {
+      "reference": "AciIO2fm1PV0ECvalVG9B08jPotpU2SC9u1F4zBAQwzFWRUwSd-7CeEAYzlvxy5xY0Gw6pFJXdVfQZCgl9hb8WnZYx90UC9eu-CDNaSXAIIzuKLW-H1caohdLalOWnkElm2QbUdJVWwXiP2sftK6eW2fhwIksl2r7zfuXzOrU_nU0fKL51b7jRYdidi8I4i0kBlrAWOsLRnFbL407JhVREC23vYYcVDq7l3lPSiEHPyofeC_rndJvjeTp4FMgY5ArX8Mo-4tFqpsGGGjKNqQxrD9a3imezA3Wy-zR2jHnOueHkzRfHou-I7OMRTfZJJXEW5hPdCk1ik3rJnqGSoq6PfIdzcL3cMeAG0AI3prgRf18zmMkMh3gC0-SVbc-lsSWYmXtlW4rAHgwiQ8bf0M26IWDSk4A7NTyI33doUPwndMxoqNIWwV",
+      "width": 2304,
+      "height": 1728,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/112105391242414535715\">Jam13</a>"
+      ],
+      "medium": "images/photo_2_medium_3c48a75a1cd8d320b5d3f7d5e73c0793.jpg"
+    },
+    {
+      "reference": "AciIO2c0gws7KnwMaeaIX8zZP4EWgRdN223XasDbkXgERGqchpO3bqVuaQy2nmODClxY232lTcNmlaFkF5ZJaZrlt_V-Dkd_UhRj3PYHVsi3Sn8elQH1nMPABFc17x4vGE0GW8-C0gQd3B7NMrwOntahzl8pUYs10XnL8uxaYot_bAm96iWGft1CmuosM7JvBQVuQXOEmJ_zHSK4tsivZ6MoUHgDm9t_4uWHcInYQTYx5yZ29cYlgjVLUgzuiTcPNa5CIwtKQomUG8OpH_5DxCJ-mTXQCijLLRl-mR6Zxn5FhD3_hNdvroZjs2G15EhRZ74InIJ8Han96nZYdlxwPNcFx0Jw2u_uyIsZeXetaZP_AFS9CtHSnxj3QrW73SR-MLlnmFYsuTei5ThZumMcy74hxBgNTjxNRts-LJ06t_Q1F9Y",
+      "width": 3648,
+      "height": 2736,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/104327824502370277257\">Gary Beale</a>"
+      ],
+      "medium": "images/photo_3_medium_eae686d8527674e50ffebf7946e9701e.jpg"
+    },
+    {
+      "reference": "AciIO2dsR7JYH7TdhQQlOng5AjkRvE2X53Z9eeo-QZ4-Z8aMWRSDrIHIpCz-0hg8hJAfp2cAWG2K5p8lmqzHdoGiYS2u5X9XBAJMNGwIdgXuOgfYv5XaXucc8eHPYdt6rNIWH9JJnp_Qk4f-owz3dTUzijx5nsQa2C1A745P8LNV7XBaTzmB6Xv-faHPyEtFKNRSW-2cnnjL0y64A2BVamTvMMZO1cirq2P78j2sY060zWy6NpAAjgnLNYUFSXfhC7AXAOW-mCnKTIa-ZDppFalP-FWxpG1eOIRBpA41QCkcLbBgZiOFpBtRKxT0FXqTL6x_P9v3Pg5Ce-i4a_nBJd289e3SHrsQm8nIBOfaBS6oXyzzB84BE2kSPropsH73AplvUVUmntHLgkEL9FbeXQ2tSd7lMc3JLJpf91_0JVv7KOkdPxhF",
+      "width": 3000,
+      "height": 4000,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/102226560738594859256\">Phoebe Alicia Abbott</a>"
+      ],
+      "medium": "images/photo_4_medium_99e92f80c90508fd36c741a42fa24609.jpg"
+    },
+    {
+      "reference": "AciIO2f__d8Ps_putUu7yg1VFvsvqTI3EcaTxM6o80NK7u0YXn9xVP0Ncydo_opAnNBp2gTNnV8kZ39vsX4CU5YkdaokFxOGGbV3-q6eSHHt6y8M_PoEWGANdr50crs-l22O9gP1Z4x-uIvYGHZoWEUHjksevlye67SZztta8uj2WZvWWV-1qBIEkSBGyppm7BbqKLCYPe7GaB4nvyZnYCQrfYvGmjT_oXAENywhQoGGpIO9DNUxjTvIX81k3XDca9iRIdU7qUtEG5QOvDYun3Bc_6i8Bj_VMj1qhld1hWyiAUuORVAOiMHznuOxf9BhqjEkA0qOXlMNvtErvZGi1meiOP9j3eUphCbAMKeworB7VY6_C7TFt8eb7PlHmYjmdkzf8WJgdA_Cin3ksJ1nkItTJD9BfnI-U2WWVLt1fP9ulxmDEmb0",
+      "width": 3024,
+      "height": 4032,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/108235169511729605987\">Greg Orzech</a>"
+      ],
+      "medium": "images/photo_5_medium_0d5eea9feb7dc3fd9dd7018d474861c3.jpg"
+    },
+    {
+      "reference": "AciIO2dPGVOo5h1XS76o-Gh_nXFhJx2EcmenjNkD-kgQtGm0xtd88eTC8ad9l85f3VUNrLVGAckZAMllCuwSQPMxQiLdYr-077UTYK5jW17a1waQMDGoKkMIVbuvHPn847N6EKrAbArioieBkinMWyOQMD1SB2WBFb0RWkp2kTE0IbRqmyXbkiY5JgVeR1E_Dgd7oTT6H6UNPa-4R9JkSQec3JFBmH8G_ZhN2C70QiTV27pcPc2aA4HLWeOKdouh_rJdzmCUKocnoygy-AkfSvBQR6ZYxPg8KHozSEwI8yTIRllT7Et1yuXKR3zpskew6tAnOst6H-AeawbqIfQMja8-ALA1B-LXc8NVjVFHunG78djPSghv1-il1cIHQoPpYC-hCZclt8vmDmV5jlzSYCGto90EGaopsKvqdgr3XE9DtnCrV7pd",
+      "width": 2252,
+      "height": 4000,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/102217261134888614646\">Stephen Eld</a>"
+      ],
+      "medium": "images/photo_6_medium_a7e15d109dc8e49effb12d75e9bda6ef.jpg"
+    },
+    {
+      "reference": "AciIO2c2ll8n3i_YDeL8UCouotWH031jRAcpmbbajP-6JcVHNoWWd60Z5ZjkwG1xUNp76YVUtrceP7fEtklw-ZOVkG22wPtA8A2vQV-JytRHZFSkXdHShRKGy0OJsn7WQo3d43NfYxjLgMESI1-CEeFHLUOAZlrvF2SnieCgACZN8Dv6gK6e9ecqimzQGFPr9WgU8kEPhZJ4mtufcuM1WnVXZbjZDzJHprsJ_HR2ZWOC09-I5bF0TDJO1Vr8Y8rYjmmvhO53_zvKROH565Ts9eA2FKnq_IzLDUbP7uNo2ZyLq4jF-GZZ8eWP4VpMWc7xG06lkDgim0rU5N6dRz8KiiZOLMzC-u1zq0jzp850aIXQ8ZJ5wJ7gsxWpXG80WJ401h_FZw5pA5sU6O5ilxr-5r7EkTv0HdySsbxZ17tPIXFP3ogV8g",
+      "width": 2304,
+      "height": 1728,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/112105391242414535715\">Jam13</a>"
+      ],
+      "medium": "images/photo_7_medium_bb5d5c8aac86f8ca3928b31ed34eadf6.jpg"
+    },
+    {
+      "reference": "AciIO2czktEIpNpemPooTxybsc7q6BteUnrz_rsU0kyObHUFiuhq_nrC7DZGfsIE-kA-V0wekfuro0LmptUnU21UkdMcbCt7-tfWXT_MEqKXNpN4_3pZhb2F85Ki6YZgnoN5iBQZ8lfY_5i6Ywxs6RcXv1OEecHN9zd6BePWj57WEyA1HIi6QXKKfSPJji5jKR0WRfzSev4uZC9Fbefpp2W8FwvAN6mm0N8LTksYapHrzA3CkpbG56bWm4p6eSiMo2s_j856uGRwkZZxtCn1ZNl_yFhcKpwKGCg6ox6-uFLRrCNxfWdEJoPhtqxVynx3qEq5HtTbD2kkbQOw38aOR7XXUJTq90YMD8VtZUwGOWi9V-kyJZpGNpDW8IGy2r3HPu1mJ-0kjSbomaCSUhiiNcOPcbnsyxGOVVIMFyYxiSuClzRjc_4",
+      "width": 2304,
+      "height": 1728,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/112105391242414535715\">Jam13</a>"
+      ],
+      "medium": "images/photo_8_medium_4b6acf8531bc56c3733087d73466cb63.jpg"
+    },
+    {
+      "reference": "AciIO2dxj5OhYKW9G8ZkLGtiZns0qymoNSjlErdh6LQCQIFHHyWIqFytPflZbwMcJQeujyZO7RehxBHUjrTn3NzF5IxhNYxpzOqHSSFnygFs8ZuF9wl7LeH12E6e02wdJb5EZ0HitY-V7lYl3n3ZXo4Vo2qcQfmXM-zFe5VOVL2J2aHU3zY-qKx-kLcYqAnRDHMmEkefBbmcXYiEovXmUBSaHWx1NYuM5BEDmEbPpd2y3zeByEwnKHw2iVGy1IvzzVzH7Qk8pyIGzx4D4fiZjfwJ43J4XaEIvuGhp12yXKg57FozhKHOzW8JAc95fmM1txnvW7GraettOjkM5BOmYpEf_ldIi8svC5QlUYtjYDwfmlY5FA_EWWgYfvUZDRutgWhoCTrDAOoYNWW0dkqJWTgzBNTWLOFRJQtu6FElcDdLv9_oug",
+      "width": 3468,
+      "height": 4503,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/102398358986883309958\">Photos Only as G Maps deletes reviews</a>"
+      ],
+      "medium": "images/photo_9_medium_25a405789a8161e50dc3e819166dce66.jpg"
+    },
+    {
+      "reference": "AciIO2fU8vpwaEYRcLVoFLNZ2cZrsKG83WJwWTGgPadYTDWGX_KVOaPzPUbAOM_MT26GxE-I2xdEQVoPlI9O9L9TxJ-DC2_f8TPqD64zP0BcvDkBXgY6pYvYmMhiieQJY63O_gefm99Of65TmJoSdb3n7IVZO_g4YX-cXXO3inz98Auco5JKjc-9gNavnQZNLYDfF0cwGGExBi9g1HENoB9zHLDXfmkbN4zo4iamGuFk-qkpe_sObduz8TMKtS6sDg2Bdspv0jsPzwFVclD6k1Pa66C_Wp_0R_0iFu1JoK6vPmH2ncxUxQYzTD6U9CbDGu1kpHSipdjEDmGu3SUHkncfXbRqmxQ2d7PqFTOjiCiZeA4L7dgBbHsfn3GPV1LO6cUfOcnF46wxPHfDqwqNmy7iDH21WpLuGDFlWaxvQ1YnzHiPrzA",
+      "width": 3264,
+      "height": 2448,
+      "attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/111200279342638232204\">Brian “Fatmanbelly”</a>"
+      ],
+      "medium": "images/photo_10_medium_76f1119f154f068837b5a12eab6a3bd4.jpg"
+    }
+  ],
+  "business_intelligence": {
+    "services_mentioned": [],
+    "menu_items": [],
+    "positive_keywords": [],
+    "areas_for_improvement": [],
+    "unique_selling_points": []
+  },
+  "website_readiness_score": 40,
+  "missing_data_points": [
+    "phone_number",
+    "opening_hours",
+    "customer_ratings",
+    "sufficient_reviews"
+  ]
+}
